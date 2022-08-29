@@ -3,7 +3,7 @@
     "document_id": "l6YiSe1mBCNuk24_IccF",
     "original_document_id": "l6YiSe1mBCNuk24_IccF",
     "version": "29",
-    "lastChanged": "1661798004547",
+    "lastChanged": "1661800106851",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -33,7 +33,7 @@
                 [
                     [
                         "Assets",
-                        "Box"
+                        "TweenBox"
                     ],
                     [
                         "Assets",
@@ -528,69 +528,6 @@
                         "font_sheet"
                     ],
                     [
-                        "Materials"
-                    ],
-                    [
-                        "Scripts",
-                        "ExampleResources [REMOVE_ME]"
-                    ],
-                    [
-                        "Scripts",
-                        "ExampleResources [REMOVE_ME]",
-                        "ExampleTweenValueScript"
-                    ],
-                    [
-                        "Scripts",
-                        "ExampleResources [REMOVE_ME]",
-                        "Materials"
-                    ],
-                    [
-                        "Scripts",
-                        "ExampleResources [REMOVE_ME]",
-                        "Materials",
-                        "Image"
-                    ],
-                    [
-                        "Scripts",
-                        "ExampleResources [REMOVE_ME]",
-                        "Materials",
-                        "TweenBoxDiffuse"
-                    ],
-                    [
-                        "Scripts",
-                        "ExampleResources [REMOVE_ME]",
-                        "Materials",
-                        "TweenSphereDiffuse"
-                    ],
-                    [
-                        "Scripts",
-                        "ExampleResources [REMOVE_ME]",
-                        "Meshes"
-                    ],
-                    [
-                        "Scripts",
-                        "ExampleResources [REMOVE_ME]",
-                        "Meshes",
-                        "TweenBox"
-                    ],
-                    [
-                        "Scripts",
-                        "ExampleResources [REMOVE_ME]",
-                        "Meshes",
-                        "TweenSphere"
-                    ],
-                    [
-                        "Scripts",
-                        "ExampleResources [REMOVE_ME]",
-                        "Textures"
-                    ],
-                    [
-                        "Scripts",
-                        "ExampleResources [REMOVE_ME]",
-                        "Textures",
-                        "Image"
-                    ],
-                    [
                         "Scripts",
                         "Spawn_2D"
                     ],
@@ -613,72 +550,6 @@
                     [
                         "Scripts",
                         "TweenManager"
-                    ],
-                    [
-                        "Scripts",
-                        "Visual Scripting Custom Nodes"
-                    ],
-                    [
-                        "Scripts",
-                        "Visual Scripting Custom Nodes",
-                        "All Tween Nodes"
-                    ],
-                    [
-                        "Tween"
-                    ],
-                    [
-                        "Tween",
-                        "ExampleResources [REMOVE_ME]"
-                    ],
-                    [
-                        "Tween",
-                        "ExampleResources [REMOVE_ME]",
-                        "Materials"
-                    ],
-                    [
-                        "Tween",
-                        "TweenTypes"
-                    ],
-                    [
-                        "Tween",
-                        "TweenTypes",
-                        "Legacy"
-                    ],
-                    [
-                        "Tween",
-                        "TweenTypes",
-                        "Legacy",
-                        "TweenBillboard [DEPRECATED]"
-                    ],
-                    [
-                        "Tween",
-                        "TweenTypes",
-                        "TweenAlpha"
-                    ],
-                    [
-                        "Tween",
-                        "TweenTypes",
-                        "TweenChain"
-                    ],
-                    [
-                        "Tween",
-                        "TweenTypes",
-                        "TweenColor"
-                    ],
-                    [
-                        "Tween",
-                        "TweenTypes",
-                        "TweenScreenTransform"
-                    ],
-                    [
-                        "Tween",
-                        "TweenTypes",
-                        "TweenTransform"
-                    ],
-                    [
-                        "Tween",
-                        "TweenTypes",
-                        "TweenValue"
                     ]
                 ]
             ]
@@ -1476,14 +1347,6 @@
                     "flags": "1"
                 },
                 {
-                    "resId": "244",
-                    "uid": "1661793547249042:457278",
-                    "name": "Files\/File418.mesh",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
                     "resId": "245",
                     "uid": "1661793547570707:457306",
                     "name": "Files\/File420",
@@ -1500,73 +1363,9 @@
                     "flags": "1"
                 },
                 {
-                    "resId": "298",
-                    "uid": "1661795332866630:800960",
-                    "name": "Files\/File505.js",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "299",
-                    "uid": "1661795332907790:800972",
-                    "name": "Files\/File506.js",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "300",
-                    "uid": "1661795332973195:800986",
-                    "name": "Files\/File507.js",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "301",
-                    "uid": "1661795333017786:800996",
-                    "name": "Files\/File508.js",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "302",
-                    "uid": "1661795333085538:801008",
-                    "name": "Files\/File509.js",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "303",
-                    "uid": "1661795333136016:801020",
-                    "name": "Files\/File510.js",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "304",
-                    "uid": "1661795333193847:801032",
-                    "name": "Files\/File511.js",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
                     "resId": "305",
                     "uid": "1661795333264356:801045",
                     "name": "Files\/File512.js",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "306",
-                    "uid": "1661795333310302:801059",
-                    "name": "Files\/File513",
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
@@ -1580,57 +1379,9 @@
                     "flags": "1"
                 },
                 {
-                    "resId": "308",
-                    "uid": "1661795333553443:801086",
-                    "name": "Files\/File517.mesh",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "309",
-                    "uid": "1661795334087550:801097",
-                    "name": "Files\/File519.js",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "310",
-                    "uid": "1661795334137566:801111",
-                    "name": "Files\/File520",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
                     "resId": "311",
                     "uid": "1661795334443899:801131",
                     "name": "Files\/File522",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "312",
-                    "uid": "1661795334746650:801147",
-                    "name": "Files\/File524",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "313",
-                    "uid": "1661795335073935:801167",
-                    "name": "Files\/File526",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "314",
-                    "uid": "1661795335288308:801185",
-                    "name": "Files\/File528.jpg",
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
@@ -1650,92 +1401,7 @@
                     "uidsToFeatureNamesWithIntensity": ""
                 },
                 "ScreenTransform": {
-                    "uidData": [
-                        {
-                            "k": "1661795335410320:801755",
-                            "v": {
-                                "isBasicMode": "true",
-                                "basicModeSetup": {
-                                    "fixWidth": "false",
-                                    "fixHeight": "false",
-                                    "attachBottom": "false",
-                                    "attachLeft": "false",
-                                    "attachRight": "false",
-                                    "attachTop": "true"
-                                }
-                            }
-                        },
-                        {
-                            "k": "1661795335465758:801950",
-                            "v": {
-                                "isBasicMode": "true",
-                                "basicModeSetup": {
-                                    "fixWidth": "true",
-                                    "fixHeight": "true",
-                                    "attachBottom": "false",
-                                    "attachLeft": "false",
-                                    "attachRight": "false",
-                                    "attachTop": "false"
-                                }
-                            }
-                        },
-                        {
-                            "k": "1661795335493019:802144",
-                            "v": {
-                                "isBasicMode": "true",
-                                "basicModeSetup": {
-                                    "fixWidth": "false",
-                                    "fixHeight": "false",
-                                    "attachBottom": "false",
-                                    "attachLeft": "false",
-                                    "attachRight": "false",
-                                    "attachTop": "false"
-                                }
-                            }
-                        },
-                        {
-                            "k": "1661795335523136:802274",
-                            "v": {
-                                "isBasicMode": "true",
-                                "basicModeSetup": {
-                                    "fixWidth": "true",
-                                    "fixHeight": "true",
-                                    "attachBottom": "false",
-                                    "attachLeft": "false",
-                                    "attachRight": "false",
-                                    "attachTop": "false"
-                                }
-                            }
-                        },
-                        {
-                            "k": "1661795335573068:802539",
-                            "v": {
-                                "isBasicMode": "true",
-                                "basicModeSetup": {
-                                    "fixWidth": "false",
-                                    "fixHeight": "false",
-                                    "attachBottom": "false",
-                                    "attachLeft": "false",
-                                    "attachRight": "false",
-                                    "attachTop": "false"
-                                }
-                            }
-                        },
-                        {
-                            "k": "1661795335600330:802664",
-                            "v": {
-                                "isBasicMode": "true",
-                                "basicModeSetup": {
-                                    "fixWidth": "false",
-                                    "fixHeight": "false",
-                                    "attachBottom": "false",
-                                    "attachLeft": "false",
-                                    "attachRight": "false",
-                                    "attachTop": "false"
-                                }
-                            }
-                        }
-                    ],
+                    "uidData": "",
                     "generalData": ""
                 }
             }
@@ -1748,30 +1414,7 @@
                 "3": "1651601209340509:53587",
                 "4": "1651772221041696:725496",
                 "5": "1651778433502638:414131",
-                "6": "1661795335346862:801197",
-                "7": "1661795335349788:801199",
-                "8": "1661795335351211:801201",
-                "9": "1661795335352380:801203",
-                "10": "1661795335353577:801205",
-                "11": "1661795335359842:801229",
-                "12": "1661795335364263:801242",
-                "13": "1661795335371139:801257",
-                "14": "1661795335379495:801272",
-                "15": "1661795335382735:801344",
-                "16": "1661795335390162:801451",
-                "17": "1661795335392224:801469",
-                "18": "1661795335395847:801529",
-                "19": "1661795335398079:801534",
-                "20": "1661795335403508:801647",
-                "21": "1661795335405910:801682",
-                "22": "1661795335407840:801747",
-                "23": "1661795335408489:801749",
-                "24": "1661795335409048:801751",
-                "25": "1661795335409587:801753",
-                "26": "1661795335464650:801948",
-                "27": "1661795335521365:802270",
-                "28": "1661795335522308:802272",
-                "29": "1661795335639287:802791"
+                "6": "1661795335353577:801205"
             }
         },
         "LayerComponent": {
@@ -2467,14 +2110,6 @@
                     "v": "Files\/File417.js"
                 },
                 {
-                    "k": "418",
-                    "v": "Files\/File418.mesh"
-                },
-                {
-                    "k": "419",
-                    "v": "Files\/File419.mesh"
-                },
-                {
                     "k": "420",
                     "v": "Files\/File420"
                 },
@@ -2491,44 +2126,8 @@
                     "v": "Files\/File423.lsmat"
                 },
                 {
-                    "k": "505",
-                    "v": "Files\/File505.js"
-                },
-                {
-                    "k": "506",
-                    "v": "Files\/File506.js"
-                },
-                {
-                    "k": "507",
-                    "v": "Files\/File507.js"
-                },
-                {
-                    "k": "508",
-                    "v": "Files\/File508.js"
-                },
-                {
-                    "k": "509",
-                    "v": "Files\/File509.js"
-                },
-                {
-                    "k": "510",
-                    "v": "Files\/File510.js"
-                },
-                {
-                    "k": "511",
-                    "v": "Files\/File511.js"
-                },
-                {
                     "k": "512",
                     "v": "Files\/File512.js"
-                },
-                {
-                    "k": "513",
-                    "v": "Files\/File513"
-                },
-                {
-                    "k": "514",
-                    "v": "Files\/File514.lsscript"
                 },
                 {
                     "k": "515",
@@ -2539,64 +2138,12 @@
                     "v": "Files\/File516.mesh"
                 },
                 {
-                    "k": "517",
-                    "v": "Files\/File517.mesh"
-                },
-                {
-                    "k": "518",
-                    "v": "Files\/File518.mesh"
-                },
-                {
-                    "k": "519",
-                    "v": "Files\/File519.js"
-                },
-                {
-                    "k": "520",
-                    "v": "Files\/File520"
-                },
-                {
-                    "k": "521",
-                    "v": "Files\/File521.lsmat"
-                },
-                {
                     "k": "522",
                     "v": "Files\/File522"
                 },
                 {
                     "k": "523",
                     "v": "Files\/File523.lsmat"
-                },
-                {
-                    "k": "524",
-                    "v": "Files\/File524"
-                },
-                {
-                    "k": "525",
-                    "v": "Files\/File525.lsmat"
-                },
-                {
-                    "k": "526",
-                    "v": "Files\/File526"
-                },
-                {
-                    "k": "527",
-                    "v": "Files\/File527.lsmat"
-                },
-                {
-                    "k": "528",
-                    "v": "Files\/File528.pvr"
-                },
-                {
-                    "k": "529",
-                    "v": "Files\/File529.png"
-                },
-                {
-                    "k": "530",
-                    "v": "Files\/File530.png"
-                },
-                {
-                    "k": "531",
-                    "v": "Files\/File531.pvr"
                 }
             ]
         },
@@ -2988,112 +2535,8 @@
                         "v": "Assets\/TweenBoxDiffuse_Alt.lsmat"
                     },
                     {
-                        "k": "29654",
-                        "v": "Assets\/Box.mesh"
-                    },
-                    {
-                        "k": "29655",
-                        "v": "Tween"
-                    },
-                    {
-                        "k": "29656",
-                        "v": "Tween\/ExampleResources [REMOVE_ME]"
-                    },
-                    {
-                        "k": "29657",
-                        "v": "Tween\/ExampleResources [REMOVE_ME]\/Materials"
-                    },
-                    {
-                        "k": "29658",
-                        "v": "Tween\/TweenTypes"
-                    },
-                    {
-                        "k": "29659",
-                        "v": "Tween\/TweenTypes\/Legacy"
-                    },
-                    {
-                        "k": "29660",
-                        "v": "Tween\/TweenTypes\/Legacy\/TweenBillboard [DEPRECATED].js"
-                    },
-                    {
-                        "k": "29661",
-                        "v": "Tween\/TweenTypes\/TweenTransform.js"
-                    },
-                    {
-                        "k": "29662",
-                        "v": "Tween\/TweenTypes\/TweenValue.js"
-                    },
-                    {
-                        "k": "29663",
-                        "v": "Tween\/TweenTypes\/TweenColor.js"
-                    },
-                    {
-                        "k": "29664",
-                        "v": "Tween\/TweenTypes\/TweenAlpha.js"
-                    },
-                    {
-                        "k": "29665",
-                        "v": "Tween\/TweenTypes\/TweenChain.js"
-                    },
-                    {
-                        "k": "29666",
-                        "v": "Tween\/TweenTypes\/TweenScreenTransform.js"
-                    },
-                    {
-                        "k": "29667",
-                        "v": "Materials"
-                    },
-                    {
-                        "k": "29668",
-                        "v": "Scripts\/ExampleResources [REMOVE_ME]"
-                    },
-                    {
-                        "k": "29669",
-                        "v": "Scripts\/ExampleResources [REMOVE_ME]\/Meshes"
-                    },
-                    {
                         "k": "29670",
-                        "v": "Scripts\/ExampleResources [REMOVE_ME]\/Meshes\/TweenBox.mesh"
-                    },
-                    {
-                        "k": "29671",
-                        "v": "Scripts\/ExampleResources [REMOVE_ME]\/Meshes\/TweenSphere.mesh"
-                    },
-                    {
-                        "k": "29672",
-                        "v": "Scripts\/ExampleResources [REMOVE_ME]\/Materials"
-                    },
-                    {
-                        "k": "29673",
-                        "v": "Scripts\/ExampleResources [REMOVE_ME]\/Materials\/TweenBoxDiffuse.lsmat"
-                    },
-                    {
-                        "k": "29674",
-                        "v": "Scripts\/ExampleResources [REMOVE_ME]\/Materials\/TweenSphereDiffuse.lsmat"
-                    },
-                    {
-                        "k": "29675",
-                        "v": "Scripts\/ExampleResources [REMOVE_ME]\/Materials\/Image.lsmat"
-                    },
-                    {
-                        "k": "29676",
-                        "v": "Scripts\/ExampleResources [REMOVE_ME]\/Textures"
-                    },
-                    {
-                        "k": "29677",
-                        "v": "Scripts\/ExampleResources [REMOVE_ME]\/Textures\/Image.png"
-                    },
-                    {
-                        "k": "29678",
-                        "v": "Scripts\/ExampleResources [REMOVE_ME]\/ExampleTweenValueScript.js"
-                    },
-                    {
-                        "k": "29679",
-                        "v": "Scripts\/Visual Scripting Custom Nodes"
-                    },
-                    {
-                        "k": "29680",
-                        "v": "Scripts\/Visual Scripting Custom Nodes\/All Tween Nodes.lsscript"
+                        "v": "Assets\/TweenBox.mesh"
                     }
                 ],
                 "hashes": [
@@ -4103,7 +3546,7 @@
                     },
                     {
                         "k": "29574",
-                        "v": "89fa93bcc73ec444d0b2d90d0113ca72"
+                        "v": "1a733a3623704bf2985578289f6290fd"
                     },
                     {
                         "k": "29575",
@@ -4379,7 +3822,7 @@
                     },
                     {
                         "k": "29650",
-                        "v": "11aaa3b91b7f7d3f272b2bc80b74c241"
+                        "v": "7763bead633b3cbbcfdbe63b278c02de"
                     },
                     {
                         "k": "29651",
@@ -4461,28 +3904,28 @@
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2022-08-29T20:33:07",
+                        "lastModified": "2022-08-29T20:34:23",
                         "name": "Public",
-                        "hash": "02676bfa7e72996aab339d4faccd39be",
+                        "hash": "cd31e2607cce8e144ff34c47acc80a5b",
                         "children": [
                             {
                                 "isFolder": "true",
-                                "lastModified": "2022-08-29T20:33:06",
+                                "lastModified": "2022-08-29T20:34:43",
                                 "name": "Assets",
-                                "hash": "6db2dad5c5c417db05886e7247eb973f",
+                                "hash": "e3af03dfb3b61ace4d842443df05a185",
                                 "children": [
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2022-08-29T19:19:06",
-                                        "name": "Box.mesh",
-                                        "hash": "621da74e06cc402b895f39376927a9d1",
-                                        "children": ""
-                                    },
                                     {
                                         "isFolder": "false",
                                         "lastModified": "2022-08-29T19:19:06",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-08-29T19:48:52",
+                                        "name": "TweenBox.mesh",
+                                        "hash": "0f22bac28f4bb7f9303722acb5d035e0",
                                         "children": ""
                                     },
                                     {
@@ -4494,9 +3937,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-08-29T20:13:08",
+                                        "lastModified": "2022-08-29T20:33:22",
                                         "name": "TweenBoxDiffuse_Alt.lsmat",
-                                        "hash": "11aaa3b91b7f7d3f272b2bc80b74c241",
+                                        "hash": "7763bead633b3cbbcfdbe63b278c02de",
                                         "children": ""
                                     },
                                     {
@@ -5115,134 +4558,10 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2022-08-29T20:33:07",
-                                "name": "Materials",
-                                "hash": "59adb24ef3cdbe0297f05b395827453f",
-                                "children": [
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2022-08-29T20:33:07",
-                                        "name": "folder.lock",
-                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
-                                        "children": ""
-                                    }
-                                ]
-                            },
-                            {
-                                "isFolder": "true",
-                                "lastModified": "2022-08-29T20:33:09",
+                                "lastModified": "2022-08-29T20:34:50",
                                 "name": "Scripts",
-                                "hash": "a97745d66f221fdacd1c36d7e07e71c9",
+                                "hash": "1851e7af10fe08f9434cbfc8a52aa7d1",
                                 "children": [
-                                    {
-                                        "isFolder": "true",
-                                        "lastModified": "2022-08-29T20:33:08",
-                                        "name": "ExampleResources [REMOVE_ME]",
-                                        "hash": "dd22af23ac1902f872e14f0b1b8578bd",
-                                        "children": [
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-08-29T19:48:52",
-                                                "name": "ExampleTweenValueScript.js",
-                                                "hash": "19bad114d394c6f678324a58945e8f6e",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-08-29T20:33:08",
-                                                "name": "folder.lock",
-                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "true",
-                                                "lastModified": "2022-08-29T20:33:08",
-                                                "name": "Materials",
-                                                "hash": "25cd741faade97326571e2affec5a32e",
-                                                "children": [
-                                                    {
-                                                        "isFolder": "false",
-                                                        "lastModified": "2022-08-29T20:33:08",
-                                                        "name": "folder.lock",
-                                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
-                                                        "children": ""
-                                                    },
-                                                    {
-                                                        "isFolder": "false",
-                                                        "lastModified": "2022-08-29T20:13:09",
-                                                        "name": "Image.lsmat",
-                                                        "hash": "5c7760ecefa925554148f01b699d6080",
-                                                        "children": ""
-                                                    },
-                                                    {
-                                                        "isFolder": "false",
-                                                        "lastModified": "2022-08-29T20:13:08",
-                                                        "name": "TweenBoxDiffuse.lsmat",
-                                                        "hash": "3c7be8d90dfbbcdf3e0ea233b01df2ef",
-                                                        "children": ""
-                                                    },
-                                                    {
-                                                        "isFolder": "false",
-                                                        "lastModified": "2022-08-29T20:13:09",
-                                                        "name": "TweenSphereDiffuse.lsmat",
-                                                        "hash": "34eac1b16e0647c5e8ea1f742a617bf6",
-                                                        "children": ""
-                                                    }
-                                                ]
-                                            },
-                                            {
-                                                "isFolder": "true",
-                                                "lastModified": "2022-08-29T20:33:08",
-                                                "name": "Meshes",
-                                                "hash": "26b93da26b65dd34541a3e7e3253f1f1",
-                                                "children": [
-                                                    {
-                                                        "isFolder": "false",
-                                                        "lastModified": "2022-08-29T20:33:08",
-                                                        "name": "folder.lock",
-                                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
-                                                        "children": ""
-                                                    },
-                                                    {
-                                                        "isFolder": "false",
-                                                        "lastModified": "2022-08-29T19:48:52",
-                                                        "name": "TweenBox.mesh",
-                                                        "hash": "0f22bac28f4bb7f9303722acb5d035e0",
-                                                        "children": ""
-                                                    },
-                                                    {
-                                                        "isFolder": "false",
-                                                        "lastModified": "2022-08-29T19:48:52",
-                                                        "name": "TweenSphere.mesh",
-                                                        "hash": "0484abd87ee78b2745eb9563b19fd6a2",
-                                                        "children": ""
-                                                    }
-                                                ]
-                                            },
-                                            {
-                                                "isFolder": "true",
-                                                "lastModified": "2022-08-29T20:33:08",
-                                                "name": "Textures",
-                                                "hash": "256b1775c79a3f9e9ec85ac29b878ef1",
-                                                "children": [
-                                                    {
-                                                        "isFolder": "false",
-                                                        "lastModified": "2022-08-29T20:33:08",
-                                                        "name": "folder.lock",
-                                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
-                                                        "children": ""
-                                                    },
-                                                    {
-                                                        "isFolder": "false",
-                                                        "lastModified": "2022-08-29T19:48:52",
-                                                        "name": "Image.png",
-                                                        "hash": "54b5e21104a4a7f86b3d510596fdc27e",
-                                                        "children": ""
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    },
                                     {
                                         "isFolder": "false",
                                         "lastModified": "2022-05-03T12:03:51",
@@ -5280,9 +4599,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-08-29T20:30:22",
+                                        "lastModified": "2022-08-29T21:08:17",
                                         "name": "TweenColorChange_3D.js",
-                                        "hash": "89fa93bcc73ec444d0b2d90d0113ca72",
+                                        "hash": "1a733a3623704bf2985578289f6290fd",
                                         "children": ""
                                     },
                                     {
@@ -5291,152 +4610,6 @@
                                         "name": "TweenManager.js",
                                         "hash": "b89e3f7e5bb9e99c64ac1d2ce692bf29",
                                         "children": ""
-                                    },
-                                    {
-                                        "isFolder": "true",
-                                        "lastModified": "2022-08-29T20:33:09",
-                                        "name": "Visual Scripting Custom Nodes",
-                                        "hash": "90e6b8b415271474fc299c78a4681960",
-                                        "children": [
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-08-29T19:48:52",
-                                                "name": "All Tween Nodes.lsscript",
-                                                "hash": "c0acb2dadfffb74eb3a6fa563e16fb8b",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-08-29T20:33:09",
-                                                "name": "folder.lock",
-                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
-                                                "children": ""
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "isFolder": "true",
-                                "lastModified": "2022-08-29T20:33:07",
-                                "name": "Tween",
-                                "hash": "3f35707825d52b41b69db9ed476a540d",
-                                "children": [
-                                    {
-                                        "isFolder": "true",
-                                        "lastModified": "2022-08-29T20:33:07",
-                                        "name": "ExampleResources [REMOVE_ME]",
-                                        "hash": "deced35555999891b938d280a2bfb02e",
-                                        "children": [
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-08-29T20:33:07",
-                                                "name": "folder.lock",
-                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "true",
-                                                "lastModified": "2022-08-29T20:33:07",
-                                                "name": "Materials",
-                                                "hash": "59adb24ef3cdbe0297f05b395827453f",
-                                                "children": [
-                                                    {
-                                                        "isFolder": "false",
-                                                        "lastModified": "2022-08-29T20:33:07",
-                                                        "name": "folder.lock",
-                                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
-                                                        "children": ""
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2022-08-29T20:33:07",
-                                        "name": "folder.lock",
-                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "true",
-                                        "lastModified": "2022-08-29T20:33:07",
-                                        "name": "TweenTypes",
-                                        "hash": "4e9bc7b88b2780691e69c5c78c673e5c",
-                                        "children": [
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-08-29T20:33:07",
-                                                "name": "folder.lock",
-                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "true",
-                                                "lastModified": "2022-08-29T20:33:07",
-                                                "name": "Legacy",
-                                                "hash": "95017f52c2e32f68d5b79570b70684bc",
-                                                "children": [
-                                                    {
-                                                        "isFolder": "false",
-                                                        "lastModified": "2022-08-29T20:33:07",
-                                                        "name": "folder.lock",
-                                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
-                                                        "children": ""
-                                                    },
-                                                    {
-                                                        "isFolder": "false",
-                                                        "lastModified": "2022-08-29T19:48:52",
-                                                        "name": "TweenBillboard [DEPRECATED].js",
-                                                        "hash": "cb227cae25f08b1eb6956339486b5f7b",
-                                                        "children": ""
-                                                    }
-                                                ]
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-08-29T19:48:52",
-                                                "name": "TweenAlpha.js",
-                                                "hash": "f8e4cbb0fbfa3d4139c98bed9e23ec3f",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-08-29T19:48:52",
-                                                "name": "TweenChain.js",
-                                                "hash": "4c94fe9a543a43e8aa2f10efc3c31867",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-08-29T19:59:38",
-                                                "name": "TweenColor.js",
-                                                "hash": "b18b335f4da1704ceed12b3cef143f80",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-08-29T19:48:52",
-                                                "name": "TweenScreenTransform.js",
-                                                "hash": "1987dfec5b53836cae47c4a678217167",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-08-29T19:48:52",
-                                                "name": "TweenTransform.js",
-                                                "hash": "e5db9d5b19168d2008aa4b1cf1fd13b1",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-08-29T19:48:52",
-                                                "name": "TweenValue.js",
-                                                "hash": "437455d53d41309951dcb1ad5d24e6e7",
-                                                "children": ""
-                                            }
-                                        ]
                                     }
                                 ]
                             }
@@ -5642,263 +4815,6 @@
                                 "publicId": "29644",
                                 "source": "C:\/Users\/matik\/AppData\/Local\/Snap\/Lens Studio\/cache\/temp\/StudioAjEOkZXLiJJD\/\/system\/\/emergencyFiles\/emergencyJs.js",
                                 "additional": ""
-                            },
-                            {
-                                "name": "ExampleResources [REMOVE_ME]",
-                                "type": "0",
-                                "subtype": "-1",
-                                "resourceId": "-1",
-                                "dependency": "0",
-                                "hidden": "false",
-                                "uid": "-1:-1",
-                                "fileId": "18446744073709551615",
-                                "originalId": "18446744073709551615",
-                                "publicId": "29668",
-                                "source": "",
-                                "additional": "",
-                                "resources": [
-                                    {
-                                        "name": "Meshes",
-                                        "type": "0",
-                                        "subtype": "-1",
-                                        "resourceId": "-1",
-                                        "dependency": "0",
-                                        "hidden": "false",
-                                        "uid": "-1:-1",
-                                        "fileId": "18446744073709551615",
-                                        "originalId": "18446744073709551615",
-                                        "publicId": "29669",
-                                        "source": "",
-                                        "additional": "",
-                                        "resources": [
-                                            {
-                                                "name": "TweenBox",
-                                                "type": "3",
-                                                "subtype": "0",
-                                                "resourceId": "307",
-                                                "dependency": "0",
-                                                "hidden": "false",
-                                                "uid": "1661795333418862:801072",
-                                                "fileId": "515",
-                                                "originalId": "18446744073709551615",
-                                                "publicId": "29670",
-                                                "source": "C:\/Users\/matik\/AppData\/Local\/Snap\/Lens Studio\/cache\/temp\/StudioAjEOkZXLiJJD\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
-                                                "additional": {
-                                                    "info": {
-                                                        "vertexAttribs": [
-                                                            {
-                                                                "semantic": "position",
-                                                                "format": "9",
-                                                                "canBeDisabled": "false"
-                                                            },
-                                                            {
-                                                                "semantic": "normal",
-                                                                "format": "9",
-                                                                "canBeDisabled": "true"
-                                                            },
-                                                            {
-                                                                "semantic": "tangent",
-                                                                "format": "9",
-                                                                "canBeDisabled": "true"
-                                                            },
-                                                            {
-                                                                "semantic": "bitangent",
-                                                                "format": "9",
-                                                                "canBeDisabled": "true"
-                                                            },
-                                                            {
-                                                                "semantic": "texture0",
-                                                                "format": "9",
-                                                                "canBeDisabled": "true"
-                                                            }
-                                                        ],
-                                                        "hasBlendShapes": "false"
-                                                    }
-                                                }
-                                            },
-                                            {
-                                                "name": "TweenSphere",
-                                                "type": "3",
-                                                "subtype": "0",
-                                                "resourceId": "308",
-                                                "dependency": "0",
-                                                "hidden": "false",
-                                                "uid": "1661795333553443:801086",
-                                                "fileId": "517",
-                                                "originalId": "18446744073709551615",
-                                                "publicId": "29671",
-                                                "source": "C:\/Users\/matik\/AppData\/Local\/Snap\/Lens Studio\/cache\/temp\/StudioAjEOkZXLiJJD\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
-                                                "additional": {
-                                                    "info": {
-                                                        "vertexAttribs": [
-                                                            {
-                                                                "semantic": "position",
-                                                                "format": "9",
-                                                                "canBeDisabled": "false"
-                                                            },
-                                                            {
-                                                                "semantic": "normal",
-                                                                "format": "9",
-                                                                "canBeDisabled": "true"
-                                                            },
-                                                            {
-                                                                "semantic": "tangent",
-                                                                "format": "9",
-                                                                "canBeDisabled": "true"
-                                                            },
-                                                            {
-                                                                "semantic": "bitangent",
-                                                                "format": "9",
-                                                                "canBeDisabled": "true"
-                                                            },
-                                                            {
-                                                                "semantic": "texture0",
-                                                                "format": "9",
-                                                                "canBeDisabled": "true"
-                                                            }
-                                                        ],
-                                                        "hasBlendShapes": "false"
-                                                    }
-                                                }
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "name": "Materials",
-                                        "type": "0",
-                                        "subtype": "-1",
-                                        "resourceId": "-1",
-                                        "dependency": "0",
-                                        "hidden": "false",
-                                        "uid": "-1:-1",
-                                        "fileId": "18446744073709551615",
-                                        "originalId": "18446744073709551615",
-                                        "publicId": "29672",
-                                        "source": "",
-                                        "additional": "",
-                                        "resources": [
-                                            {
-                                                "name": "TweenBoxDiffuse",
-                                                "type": "2",
-                                                "subtype": "1",
-                                                "resourceId": "310",
-                                                "dependency": "0",
-                                                "hidden": "false",
-                                                "uid": "1661795334137566:801111",
-                                                "fileId": "520",
-                                                "originalId": "521",
-                                                "publicId": "29673",
-                                                "source": "",
-                                                "additional": ""
-                                            },
-                                            {
-                                                "name": "TweenSphereDiffuse",
-                                                "type": "2",
-                                                "subtype": "1",
-                                                "resourceId": "312",
-                                                "dependency": "0",
-                                                "hidden": "false",
-                                                "uid": "1661795334746650:801147",
-                                                "fileId": "524",
-                                                "originalId": "525",
-                                                "publicId": "29674",
-                                                "source": "",
-                                                "additional": ""
-                                            },
-                                            {
-                                                "name": "Image",
-                                                "type": "2",
-                                                "subtype": "1",
-                                                "resourceId": "313",
-                                                "dependency": "0",
-                                                "hidden": "false",
-                                                "uid": "1661795335073935:801167",
-                                                "fileId": "526",
-                                                "originalId": "527",
-                                                "publicId": "29675",
-                                                "source": "",
-                                                "additional": ""
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "name": "Textures",
-                                        "type": "0",
-                                        "subtype": "-1",
-                                        "resourceId": "-1",
-                                        "dependency": "0",
-                                        "hidden": "false",
-                                        "uid": "-1:-1",
-                                        "fileId": "18446744073709551615",
-                                        "originalId": "18446744073709551615",
-                                        "publicId": "29676",
-                                        "source": "",
-                                        "additional": "",
-                                        "resources": [
-                                            {
-                                                "name": "Image",
-                                                "type": "1",
-                                                "subtype": "9",
-                                                "resourceId": "314",
-                                                "dependency": "0",
-                                                "hidden": "false",
-                                                "uid": "1661795335288308:801185",
-                                                "fileId": "528",
-                                                "originalId": "529",
-                                                "publicId": "29677",
-                                                "source": "C:\/Users\/matik\/AppData\/Local\/Snap\/Lens Studio\/cache\/temp\/StudioAjEOkZXLiJJD\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
-                                                "additional": {
-                                                    "originHash": "54b5e21104a4a7f86b3d510596fdc27e",
-                                                    "subtype": "9"
-                                                }
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "name": "ExampleTweenValueScript",
-                                        "type": "4",
-                                        "subtype": "0",
-                                        "resourceId": "309",
-                                        "dependency": "0",
-                                        "hidden": "false",
-                                        "uid": "1661795334087550:801097",
-                                        "fileId": "519",
-                                        "originalId": "18446744073709551615",
-                                        "publicId": "29678",
-                                        "source": "C:\/Users\/matik\/AppData\/Local\/Snap\/Lens Studio\/cache\/temp\/StudioAjEOkZXLiJJD\/\/system\/\/emergencyFiles\/emergencyJs.js",
-                                        "additional": ""
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "Visual Scripting Custom Nodes",
-                                "type": "0",
-                                "subtype": "-1",
-                                "resourceId": "-1",
-                                "dependency": "0",
-                                "hidden": "false",
-                                "uid": "-1:-1",
-                                "fileId": "18446744073709551615",
-                                "originalId": "18446744073709551615",
-                                "publicId": "29679",
-                                "source": "",
-                                "additional": "",
-                                "resources": [
-                                    {
-                                        "name": "All Tween Nodes",
-                                        "type": "4",
-                                        "subtype": "1",
-                                        "resourceId": "306",
-                                        "dependency": "0",
-                                        "hidden": "false",
-                                        "uid": "1661795333310302:801059",
-                                        "fileId": "513",
-                                        "originalId": "514",
-                                        "publicId": "29680",
-                                        "source": "C:\/Users\/matik\/AppData\/Local\/Snap\/Lens Studio\/cache\/temp\/StudioAjEOkZXLiJJD\/\/system\/\/emergencyFiles\/emergencyGraph.lsscript",
-                                        "additional": ""
-                                    }
-                                ]
                             }
                         ]
                     },
@@ -8655,17 +7571,17 @@
                                 "additional": ""
                             },
                             {
-                                "name": "Box",
+                                "name": "TweenBox",
                                 "type": "3",
                                 "subtype": "0",
-                                "resourceId": "244",
+                                "resourceId": "307",
                                 "dependency": "0",
                                 "hidden": "false",
-                                "uid": "1661793547249042:457278",
-                                "fileId": "418",
+                                "uid": "1661795333418862:801072",
+                                "fileId": "515",
                                 "originalId": "18446744073709551615",
-                                "publicId": "29654",
-                                "source": "C:\/Users\/matik\/Desktop\/LensProject\/LensProject\/Public\/Assets\/Box.mesh",
+                                "publicId": "29670",
+                                "source": "C:\/Users\/matik\/AppData\/Local\/Snap\/Lens Studio\/cache\/temp\/StudioAjEOkZXLiJJD\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
                                 "additional": {
                                     "info": {
                                         "vertexAttribs": [
@@ -8685,8 +7601,8 @@
                                                 "canBeDisabled": "true"
                                             },
                                             {
-                                                "semantic": "color",
-                                                "format": "3",
+                                                "semantic": "bitangent",
+                                                "format": "9",
                                                 "canBeDisabled": "true"
                                             },
                                             {
@@ -8700,212 +7616,14 @@
                                 }
                             }
                         ]
-                    },
-                    {
-                        "name": "Tween",
-                        "type": "0",
-                        "subtype": "-1",
-                        "resourceId": "-1",
-                        "dependency": "0",
-                        "hidden": "false",
-                        "uid": "-1:-1",
-                        "fileId": "18446744073709551615",
-                        "originalId": "18446744073709551615",
-                        "publicId": "29655",
-                        "source": "",
-                        "additional": "",
-                        "resources": [
-                            {
-                                "name": "ExampleResources [REMOVE_ME]",
-                                "type": "0",
-                                "subtype": "-1",
-                                "resourceId": "-1",
-                                "dependency": "0",
-                                "hidden": "false",
-                                "uid": "-1:-1",
-                                "fileId": "18446744073709551615",
-                                "originalId": "18446744073709551615",
-                                "publicId": "29656",
-                                "source": "",
-                                "additional": "",
-                                "resources": [
-                                    {
-                                        "name": "Materials",
-                                        "type": "0",
-                                        "subtype": "-1",
-                                        "resourceId": "-1",
-                                        "dependency": "0",
-                                        "hidden": "false",
-                                        "uid": "-1:-1",
-                                        "fileId": "18446744073709551615",
-                                        "originalId": "18446744073709551615",
-                                        "publicId": "29657",
-                                        "source": "",
-                                        "additional": "",
-                                        "resources": ""
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "TweenTypes",
-                                "type": "0",
-                                "subtype": "-1",
-                                "resourceId": "-1",
-                                "dependency": "0",
-                                "hidden": "false",
-                                "uid": "-1:-1",
-                                "fileId": "18446744073709551615",
-                                "originalId": "18446744073709551615",
-                                "publicId": "29658",
-                                "source": "",
-                                "additional": "",
-                                "resources": [
-                                    {
-                                        "name": "Legacy",
-                                        "type": "0",
-                                        "subtype": "-1",
-                                        "resourceId": "-1",
-                                        "dependency": "0",
-                                        "hidden": "false",
-                                        "uid": "-1:-1",
-                                        "fileId": "18446744073709551615",
-                                        "originalId": "18446744073709551615",
-                                        "publicId": "29659",
-                                        "source": "",
-                                        "additional": "",
-                                        "resources": [
-                                            {
-                                                "name": "TweenBillboard [DEPRECATED]",
-                                                "type": "4",
-                                                "subtype": "0",
-                                                "resourceId": "302",
-                                                "dependency": "0",
-                                                "hidden": "false",
-                                                "uid": "1661795333085538:801008",
-                                                "fileId": "509",
-                                                "originalId": "18446744073709551615",
-                                                "publicId": "29660",
-                                                "source": "C:\/Users\/matik\/AppData\/Local\/Snap\/Lens Studio\/cache\/temp\/StudioAjEOkZXLiJJD\/\/system\/\/emergencyFiles\/emergencyJs.js",
-                                                "additional": ""
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "name": "TweenTransform",
-                                        "type": "4",
-                                        "subtype": "0",
-                                        "resourceId": "298",
-                                        "dependency": "0",
-                                        "hidden": "false",
-                                        "uid": "1661795332866630:800960",
-                                        "fileId": "505",
-                                        "originalId": "18446744073709551615",
-                                        "publicId": "29661",
-                                        "source": "C:\/Users\/matik\/AppData\/Local\/Snap\/Lens Studio\/cache\/temp\/StudioAjEOkZXLiJJD\/\/system\/\/emergencyFiles\/emergencyJs.js",
-                                        "additional": ""
-                                    },
-                                    {
-                                        "name": "TweenValue",
-                                        "type": "4",
-                                        "subtype": "0",
-                                        "resourceId": "299",
-                                        "dependency": "0",
-                                        "hidden": "false",
-                                        "uid": "1661795332907790:800972",
-                                        "fileId": "506",
-                                        "originalId": "18446744073709551615",
-                                        "publicId": "29662",
-                                        "source": "C:\/Users\/matik\/AppData\/Local\/Snap\/Lens Studio\/cache\/temp\/StudioAjEOkZXLiJJD\/\/system\/\/emergencyFiles\/emergencyJs.js",
-                                        "additional": ""
-                                    },
-                                    {
-                                        "name": "TweenColor",
-                                        "type": "4",
-                                        "subtype": "0",
-                                        "resourceId": "300",
-                                        "dependency": "0",
-                                        "hidden": "false",
-                                        "uid": "1661795332973195:800986",
-                                        "fileId": "507",
-                                        "originalId": "18446744073709551615",
-                                        "publicId": "29663",
-                                        "source": "C:\/Users\/matik\/AppData\/Local\/Snap\/Lens Studio\/cache\/temp\/StudioAjEOkZXLiJJD\/\/system\/\/emergencyFiles\/emergencyJs.js",
-                                        "additional": ""
-                                    },
-                                    {
-                                        "name": "TweenAlpha",
-                                        "type": "4",
-                                        "subtype": "0",
-                                        "resourceId": "301",
-                                        "dependency": "0",
-                                        "hidden": "false",
-                                        "uid": "1661795333017786:800996",
-                                        "fileId": "508",
-                                        "originalId": "18446744073709551615",
-                                        "publicId": "29664",
-                                        "source": "C:\/Users\/matik\/AppData\/Local\/Snap\/Lens Studio\/cache\/temp\/StudioAjEOkZXLiJJD\/\/system\/\/emergencyFiles\/emergencyJs.js",
-                                        "additional": ""
-                                    },
-                                    {
-                                        "name": "TweenChain",
-                                        "type": "4",
-                                        "subtype": "0",
-                                        "resourceId": "303",
-                                        "dependency": "0",
-                                        "hidden": "false",
-                                        "uid": "1661795333136016:801020",
-                                        "fileId": "510",
-                                        "originalId": "18446744073709551615",
-                                        "publicId": "29665",
-                                        "source": "C:\/Users\/matik\/AppData\/Local\/Snap\/Lens Studio\/cache\/temp\/StudioAjEOkZXLiJJD\/\/system\/\/emergencyFiles\/emergencyJs.js",
-                                        "additional": ""
-                                    },
-                                    {
-                                        "name": "TweenScreenTransform",
-                                        "type": "4",
-                                        "subtype": "0",
-                                        "resourceId": "304",
-                                        "dependency": "0",
-                                        "hidden": "false",
-                                        "uid": "1661795333193847:801032",
-                                        "fileId": "511",
-                                        "originalId": "18446744073709551615",
-                                        "publicId": "29666",
-                                        "source": "C:\/Users\/matik\/AppData\/Local\/Snap\/Lens Studio\/cache\/temp\/StudioAjEOkZXLiJJD\/\/system\/\/emergencyFiles\/emergencyJs.js",
-                                        "additional": ""
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Materials",
-                        "type": "0",
-                        "subtype": "-1",
-                        "resourceId": "-1",
-                        "dependency": "0",
-                        "hidden": "false",
-                        "uid": "-1:-1",
-                        "fileId": "18446744073709551615",
-                        "originalId": "18446744073709551615",
-                        "publicId": "29667",
-                        "source": "",
-                        "additional": "",
-                        "resources": ""
                     }
                 ]
             }
         },
         "InspectorController": {
             "selection": {
-                "resources": [
-                    {
-                        "uid": "1661795334443899:801131",
-                        "path_list": [
-                            "Assets",
-                            "TweenBoxDiffuse_Alt"
-                        ]
-                    }
+                "objects": [
+                    "1651601209340509:53587"
                 ]
             }
         },
@@ -12386,62 +11104,6 @@
                     }
                 },
                 {
-                    "k": "1661793547249042:457278",
-                    "v": {
-                        "infos": {
-                            "originalSize": "794",
-                            "compressedSize": "794",
-                            "originalRAM": "1320",
-                            "compressedRAM": "1320",
-                            "extension": "mesh",
-                            "settings": {
-                                "isCompressed": "false",
-                                "info": {
-                                    "vertexAttribs": [
-                                        {
-                                            "semantic": "position",
-                                            "format": "9",
-                                            "canBeDisabled": "false"
-                                        },
-                                        {
-                                            "semantic": "normal",
-                                            "format": "9",
-                                            "canBeDisabled": "true"
-                                        },
-                                        {
-                                            "semantic": "tangent",
-                                            "format": "9",
-                                            "canBeDisabled": "true"
-                                        },
-                                        {
-                                            "semantic": "color",
-                                            "format": "3",
-                                            "canBeDisabled": "true"
-                                        },
-                                        {
-                                            "semantic": "texture0",
-                                            "format": "9",
-                                            "canBeDisabled": "true"
-                                        }
-                                    ],
-                                    "hasBlendShapes": "false"
-                                },
-                                "type": "0",
-                                "attributeFormat": "",
-                                "draco": {
-                                    "posBits": "11",
-                                    "texBits": "10",
-                                    "normalBits": "8",
-                                    "colorBits": "8",
-                                    "compressLvl": "7"
-                                }
-                            }
-                        },
-                        "uncompressed_file": "419",
-                        "compressed_files": ""
-                    }
-                },
-                {
                     "k": "1661795333418862:801072",
                     "v": {
                         "infos": {
@@ -12495,90 +11157,6 @@
                         },
                         "uncompressed_file": "516",
                         "compressed_files": ""
-                    }
-                },
-                {
-                    "k": "1661795333553443:801086",
-                    "v": {
-                        "infos": {
-                            "originalSize": "16722",
-                            "compressedSize": "16722",
-                            "originalRAM": "29144",
-                            "compressedRAM": "29144",
-                            "extension": "mesh",
-                            "settings": {
-                                "isCompressed": "false",
-                                "info": {
-                                    "vertexAttribs": [
-                                        {
-                                            "semantic": "position",
-                                            "format": "9",
-                                            "canBeDisabled": "false"
-                                        },
-                                        {
-                                            "semantic": "normal",
-                                            "format": "9",
-                                            "canBeDisabled": "true"
-                                        },
-                                        {
-                                            "semantic": "tangent",
-                                            "format": "9",
-                                            "canBeDisabled": "true"
-                                        },
-                                        {
-                                            "semantic": "bitangent",
-                                            "format": "9",
-                                            "canBeDisabled": "true"
-                                        },
-                                        {
-                                            "semantic": "texture0",
-                                            "format": "9",
-                                            "canBeDisabled": "true"
-                                        }
-                                    ],
-                                    "hasBlendShapes": "false"
-                                },
-                                "type": "0",
-                                "attributeFormat": "",
-                                "draco": {
-                                    "posBits": "11",
-                                    "texBits": "10",
-                                    "normalBits": "8",
-                                    "colorBits": "8",
-                                    "compressLvl": "7"
-                                }
-                            }
-                        },
-                        "uncompressed_file": "518",
-                        "compressed_files": ""
-                    }
-                },
-                {
-                    "k": "1661795335288308:801185",
-                    "v": {
-                        "infos": {
-                            "originalSize": "5870",
-                            "compressedSize": "2723",
-                            "originalRAM": "230400",
-                            "compressedRAM": "28800",
-                            "extension": "png",
-                            "settings": {
-                                "isCompressed": "true",
-                                "level": "2",
-                                "type": "1",
-                                "subtype": "9"
-                            }
-                        },
-                        "uncompressed_file": "530",
-                        "compressed_files": [
-                            {
-                                "k": {
-                                    "uncompressed_hash": "54b5e21104a4a7f86b3d510596fdc27e",
-                                    "settings_hash": "2049"
-                                },
-                                "v": "531"
-                            }
-                        ]
                     }
                 }
             ]

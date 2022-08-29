@@ -80,14 +80,14 @@ function setupColorComponentTweens(componentType, sceneObject, x, y, z) {
             r: (255 * global.heatness[x][y][z]).toFixed(0),
             g: 0,
             b: (255 * (1 - global.heatness[x][y][z])).toFixed(0),
-            a: 1
+            a: global.heatness[x][y][z]
         }
 
         // Create the tween
         tween = new TWEEN.Tween(startValue)
             .to(endValue, script.TimeOfAnimation * 1000.0)
             .delay(script.delay * 1000.0)
-            .easing(TWEEN.Easing["Quadratic"]["Out"])
+            .easing(TWEEN.Easing.Linear.None)
             .onUpdate(updateColorComponent(visualComponent));
 
         if (tween) {
