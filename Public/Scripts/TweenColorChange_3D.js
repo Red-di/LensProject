@@ -80,7 +80,7 @@ function setupColorComponentTweens(componentType, sceneObject, x, y, z) {
             r: (255 * global.heatness[x][y][z]).toFixed(0),
             g: 0,
             b: (255 * (1 - global.heatness[x][y][z])).toFixed(0),
-            a: 0
+            a: 1
         }
 
         // Create the tween
@@ -101,7 +101,7 @@ function setupColorComponentTweens(componentType, sceneObject, x, y, z) {
 }
 
 function updateVisual(visualComponent, value) {
-    visualComponent.getMaterial(0).getPass(0).baseColor = new vec4(value.r/255, value.g/255, value.b/255, 0)
+    visualComponent.getMaterial(0).getPass(0).baseColor = new vec4(value.r/255, value.g/255, value.b/255, value.a);
 }
 
 function updateColorComponent(visualComponent) {

@@ -52,12 +52,16 @@ global.startTween();
 
 function addNewObject(x, y, z) {
     var newSceneObject = global.scene.createSceneObject("Object");
+    var visualComponent = script.box.getComponent("Component.MaterialMeshVisual")
+    newSceneObject.copyComponent(visualComponent);
     newSceneObject.getTransform().setWorldPosition(new vec3(x, y, z));
     newSceneObject.getTransform().setWorldScale(new vec3(0.05, 0.05, 0.05));
     
-    var meshComp = newSceneObject.createComponent("Component.RenderMeshVisual");
-    meshComp.mesh = script.box.getComponent("Component.RenderMeshVisual").mesh;
-    meshComp.addMaterial(script.boxMaterial.clone());
+    newSceneObject.getComponent("Component.MaterialMeshVisual").clearMaterials();
+    newSceneObject.getComponent("Component.MaterialMeshVisual").addMaterial(visualComponent.getMaterial(0).clone());
+    // var meshComp = newSceneObject.createComponent("Component.RenderMeshVisual");
+    // meshComp.mesh = script.box.getComponent("Component.RenderMeshVisual").mesh;
+    // meshComp.addMaterial(script.boxMaterial.clone());
 
     return newSceneObject;
 }
