@@ -1,8 +1,9 @@
 // -----JS CODE-----
+//@input Asset.Material boxMaterial
 //@input SceneObject box
 //@input Component.Camera camera
 //@input Component.DeviceTracking device
-// @input Component.RenderMeshVisual worldMesh
+//@input Component.RenderMeshVisual worldMesh
 //@input int MatrixShape
 //@input float h
 //@input float dt
@@ -12,36 +13,25 @@
 //@input int heatnessSource_Y
 //@input int heatnessSource_Z
 //@input int heatnessValue
-//@input Asset.Material[] materials
-var count = 0;
-var materialsDict = {
-    "0.0": script.materials[0],
-    "0.1": script.materials[1],
-    "0.2": script.materials[2],
-    "0.3": script.materials[3],
-    "0.4": script.materials[4],
-    "0.5": script.materials[5],
-    "0.6": script.materials[6],
-    "0.7": script.materials[7],
-    "0.8": script.materials[8],
-    "0.9": script.materials[9],
-    "1.0": script.materials[10],
-}
 
-var matrix = [];
+global.heatnessSource_X = script.heatnessSource_X;
+global.heatnessSource_Y = script.heatnessSource_Y;
+global.heatnessSource_Z = script.heatnessSource_Z;
+
+global.matrix = [];
 for(var i=0; i < script.MatrixShape; i++) {
-    matrix[i] = [];
+    global.matrix[i] = [];
     for(var j=0; j < script.MatrixShape; j++)
-        matrix[i][j] = new Array(script.MatrixShape);
+        global.matrix[i][j] = new Array(script.MatrixShape);
 }
 
-var heatness = [];
+global.heatness = [];
 for(var i=0; i < script.MatrixShape; i++) {
-    heatness[i] = [];
+    global.heatness[i] = [];
     for(var j=0; j < script.MatrixShape; j++) {
-        heatness[i][j] = [];
+        global.heatness[i][j] = [];
         for(var k=0; k < script.MatrixShape; k++) {
-            heatness[i][j][k] = 0;
+            global.heatness[i][j][k] = 0;
         }
     }
 }
@@ -49,17 +39,16 @@ for(var i=0; i < script.MatrixShape; i++) {
 var camera_coords = script.camera.getTransform().getWorldPosition();
 createMatrix(camera_coords.x, camera_coords.y, camera_coords.z, script.MatrixShape);
 
-heatness[script.heatnessSource_X][script.heatnessSource_Y][script.heatnessSource_Z] = script.heatnessValue;
+global.heatness[script.heatnessSource_X][script.heatnessSource_Y][script.heatnessSource_Z] = script.heatnessValue;
 var heatnessSource = [script.heatnessSource_X, script.heatnessSource_Y, script.heatnessSource_Z];
-var renderMeshVisual = matrix[script.heatnessSource_X][script.heatnessSource_Y][script.heatnessSource_Z].getComponent("Component.RenderMeshVisual");
-
-renderMeshVisual.clearMaterials();
-renderMeshVisual.addMaterial(script.materials[10]);
+var renderMeshVisual = global.matrix[script.heatnessSource_X][script.heatnessSource_Y][script.heatnessSource_Z].getComponent("Component.RenderMeshVisual");
 
 
 for (var t = 0; t < script.time; t++){
     spreadHeatness(script.h, script.dt, script.e, [script.heatnessSource_X, script.heatnessSource_Y, script.heatnessSource_Z]);
 }
+
+global.startTween();
 
 function addNewObject(x, y, z) {
     var newSceneObject = global.scene.createSceneObject("Object");
@@ -67,8 +56,9 @@ function addNewObject(x, y, z) {
     newSceneObject.getTransform().setWorldScale(new vec3(0.05, 0.05, 0.05));
     
     var meshComp = newSceneObject.createComponent("Component.RenderMeshVisual");
-    meshComp.addMaterial(script.materials[0]);
     meshComp.mesh = script.box.getComponent("Component.RenderMeshVisual").mesh;
+    meshComp.addMaterial(script.boxMaterial.clone());
+
     return newSceneObject;
 }
 
@@ -77,7 +67,7 @@ function createMatrix(startX, startY, startZ, shape) {
     for(i = -halfShape; i < halfShape+1; i++) {
         for(j = -halfShape; j < halfShape+1; j++) {
             for(k = -halfShape; k < halfShape+1; k++) { 
-                matrix[i+halfShape][j+halfShape][k+halfShape] = addNewObject(startX+i, startY+j, startZ+k);   
+                global.matrix[i+halfShape][j+halfShape][k+halfShape] = addNewObject(startX+i, startY+j, startZ+k);   
             }
         }  
     } 
@@ -90,7 +80,7 @@ function spreadHeatness(h, dt, e, centre) {
     
     calculateHeatness(h, dt, e, x, y, z);
     
-    for (var i = 1; i < matrix.length/2-1; i++) {
+    for (var i = 1; i < global.matrix.length/2-1; i++) {
         
         calculateHeatness(h, dt, e, x-i, y, z);
         
@@ -206,29 +196,17 @@ function spreadHeatness(h, dt, e, centre) {
 
 
 function calculateHeatness(h, dt, e, x, y, z) {
-    if ((x > 0 && x < heatness.length-1) && (y> 0 && y < heatness.length-1) && (z> 0 && z < heatness.length-1)) {
+    if ((x > 0 && x < global.heatness.length-1) && (y> 0 && y < global.heatness.length-1) && (z> 0 && z < global.heatness.length-1)) {
         
-        dx2 = e * ((heatness[x+1][y][z] - 2*heatness[x][y][z] + heatness[x-1][y][z]) / (h*h));
-        dy2 = e * ((heatness[x][y+1][z] - 2*heatness[x][y][z] + heatness[x][y-1][z]) / (h*h)); 
-        dz2 = e * ((heatness[x][y][z+1] - 2*heatness[x][y][z] + heatness[x][y][z-1]) / (h*h)); 
+        dx2 = e * ((global.heatness[x+1][y][z] - 2*global.heatness[x][y][z] + global.heatness[x-1][y][z]) / (h*h));
+        dy2 = e * ((global.heatness[x][y+1][z] - 2*global.heatness[x][y][z] + global.heatness[x][y-1][z]) / (h*h)); 
+        dz2 = e * ((global.heatness[x][y][z+1] - 2*global.heatness[x][y][z] + global.heatness[x][y][z-1]) / (h*h)); 
 
-        var new_color = heatness[x][y][z] + dt * dx2 + dt * dy2 + dt * dz2;
+        var new_color = global.heatness[x][y][z] + dt * dx2 + dt * dy2 + dt * dz2;
 
         if (x == script.heatnessSource_X && y == script.heatnessSource_Y && z == script.heatnessSource_Z) {                        
             new_color = new_color + script.heatnessValue;
         }
-
-        var previous_color = heatness[x][y][z];
-        heatness[x][y][z] = new_color;
-
-        if (previous_color.toFixed(1) != heatness[x][y][z].toFixed(1)) {
-            var renderMeshVisual = matrix[x][y][z].getComponent("Component.RenderMeshVisual");
-            renderMeshVisual.mainPass.blendMode = 0;
-            if (new_color.toFixed(1) > 1.0) {
-                renderMeshVisual.addMaterial(materialsDict["1.0"]);
-            } else {
-                renderMeshVisual.addMaterial(materialsDict[new_color.toFixed(1)]);
-            }
-        }
+        global.heatness[x][y][z] = new_color;
     }
 }

@@ -33,7 +33,9 @@ function setupTween() {
 
     for(var i = 0; i < global.matrix.length; i++) {
         for (var j = 0; j < global.matrix.length; j++) {
-            setupColorComponentTweens("Component.MaterialMeshVisual", matrix[i][j], i, j);
+            for (var k = 0; k < global.matrix.length; k++) {
+                setupColorComponentTweens("Component.MaterialMeshVisual", matrix[i][j][k], i, j, k);
+            }
         }
     }
 
@@ -44,7 +46,7 @@ function setupTween() {
 }
 
 // Create Tweens for specific Visual Component (e.g. MaterialMeshVisual or Text)
-function setupColorComponentTweens(componentType, sceneObject, x, y) {
+function setupColorComponentTweens(componentType, sceneObject, x, y, z) {
 
     var visualComponents = sceneObject.getComponents(componentType);
     for (var i = 0; i < visualComponents.length; i++) {
@@ -59,26 +61,26 @@ function setupColorComponentTweens(componentType, sceneObject, x, y) {
 
         var tween = null;
 
-        if (x == global.heatnessSource_X && y == global.heatnessSource_Y) {
+        if (x == global.heatnessSource_X && y == global.heatnessSource_Y && z == global.heatnessSource_Z) {
             startValue = {
                 r: 255,
                 g: 0,
                 b: 0,
-                a: 1
+                a: 0,
             }    
         } else {
             startValue = {
                 r: 0,
                 g: 0,
                 b: 255,
-                a: 1
+                a: 0
             }
         }
         endValue = {
-            r: (255 * global.heatness[x][y]).toFixed(0),
+            r: (255 * global.heatness[x][y][z]).toFixed(0),
             g: 0,
-            b: (255 * (1 - global.heatness[x][y])).toFixed(0),
-            a: 1
+            b: (255 * (1 - global.heatness[x][y][z])).toFixed(0),
+            a: 0
         }
 
         // Create the tween
@@ -99,7 +101,7 @@ function setupColorComponentTweens(componentType, sceneObject, x, y) {
 }
 
 function updateVisual(visualComponent, value) {
-    visualComponent.getMaterial(0).getPass(0).baseColor = new vec4(value.r/255, value.g/255, value.b/255, 1)
+    visualComponent.getMaterial(0).getPass(0).baseColor = new vec4(value.r/255, value.g/255, value.b/255, 0)
 }
 
 function updateColorComponent(visualComponent) {

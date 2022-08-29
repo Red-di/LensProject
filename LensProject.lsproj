@@ -3,7 +3,7 @@
     "document_id": "l6YiSe1mBCNuk24_IccF",
     "original_document_id": "l6YiSe1mBCNuk24_IccF",
     "version": "29",
-    "lastChanged": "1661791362900",
+    "lastChanged": "1661792300657",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -31,6 +31,22 @@
         "ResourceUiComponent": {
             "collapsedList": [
                 [
+                    [
+                        "Assets",
+                        "Box"
+                    ],
+                    [
+                        "Assets",
+                        "TweenBoxDiffuse"
+                    ],
+                    [
+                        "Assets",
+                        "World Mesh"
+                    ],
+                    [
+                        "Assets",
+                        "World Mesh Default"
+                    ],
                     [
                         "Echopark",
                         "Diff"
@@ -525,21 +541,11 @@
                     ],
                     [
                         "Scripts",
-                        "TweenBoxDiffuse"
-                    ],
-                    [
-                        "Scripts",
                         "TweenColorChange_2D"
                     ],
                     [
                         "Scripts",
                         "TweenColorChange_3D"
-                    ],
-                    [
-                        "World Mesh"
-                    ],
-                    [
-                        "World Mesh Default"
                     ]
                 ]
             ]
@@ -1347,6 +1353,14 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "208",
+                    "uid": "1661791411342410:202989",
+                    "name": "Files\/File358.mesh",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -2082,6 +2096,14 @@
                 {
                     "k": "347",
                     "v": "Files\/File347.lsmat"
+                },
+                {
+                    "k": "358",
+                    "v": "Files\/File358.mesh"
+                },
+                {
+                    "k": "359",
+                    "v": "Files\/File359.mesh"
                 }
             ]
         },
@@ -2118,7 +2140,7 @@
                     },
                     {
                         "k": "29340",
-                        "v": "World Mesh Default.lsmat"
+                        "v": "Assets\/World Mesh Default.lsmat"
                     },
                     {
                         "k": "29341",
@@ -2458,7 +2480,15 @@
                     },
                     {
                         "k": "29524",
-                        "v": "Scripts\/TweenBoxDiffuse.lsmat"
+                        "v": "Assets\/TweenBoxDiffuse.lsmat"
+                    },
+                    {
+                        "k": "29530",
+                        "v": "Assets\/Box.mesh"
+                    },
+                    {
+                        "k": "29531",
+                        "v": "Assets"
                     }
                 ],
                 "hashes": [
@@ -2476,7 +2506,7 @@
                     },
                     {
                         "k": "27857",
-                        "v": "17c721d638fe88268a8aae577d6b91eb"
+                        "v": "220aab7777214b0e09dce188af897c3c"
                     },
                     {
                         "k": "27858",
@@ -2656,7 +2686,7 @@
                     },
                     {
                         "k": "29340",
-                        "v": "a17ed4393976b4f3f564bd6e69ce774f"
+                        "v": "23bb2cffaadf955a6cebce216fa648f5"
                     },
                     {
                         "k": "29341",
@@ -3088,7 +3118,7 @@
                     },
                     {
                         "k": "29450",
-                        "v": "1004ae434112c128f9aaa64171892efd"
+                        "v": "c4aee6ca2caf044ad9870a4720e67ff2"
                     },
                     {
                         "k": "29451",
@@ -3276,7 +3306,7 @@
                     },
                     {
                         "k": "29524",
-                        "v": "680032153224c9b292f227cc494355ba"
+                        "v": "3bf49e131f2fa54dd54d3085ba7b6a0a"
                     },
                     {
                         "k": "29525",
@@ -3293,15 +3323,55 @@
                     {
                         "k": "29529",
                         "v": "54b5e21104a4a7f86b3d510596fdc27e"
+                    },
+                    {
+                        "k": "29530",
+                        "v": "621da74e06cc402b895f39376927a9d1"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2022-08-29T18:40:52",
+                        "lastModified": "2022-08-29T18:44:15",
                         "name": "Public",
-                        "hash": "c4b691fc5095e2421b55d1fe0f437daf",
+                        "hash": "5c73027925c530f54df048a76e33bce0",
                         "children": [
+                            {
+                                "isFolder": "true",
+                                "lastModified": "2022-08-29T18:44:21",
+                                "name": "Assets",
+                                "hash": "519360c9e2d050fb6a23ade7b9cf87db",
+                                "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-08-29T18:43:30",
+                                        "name": "Box.mesh",
+                                        "hash": "621da74e06cc402b895f39376927a9d1",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-08-29T18:44:00",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-08-29T18:42:40",
+                                        "name": "TweenBoxDiffuse.lsmat",
+                                        "hash": "3bf49e131f2fa54dd54d3085ba7b6a0a",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-08-29T18:39:41",
+                                        "name": "World Mesh Default.lsmat",
+                                        "hash": "23bb2cffaadf955a6cebce216fa648f5",
+                                        "children": ""
+                                    }
+                                ]
+                            },
                             {
                                 "isFolder": "false",
                                 "lastModified": "2022-03-14T22:22:54",
@@ -3909,9 +3979,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2022-08-29T18:41:08",
+                                "lastModified": "2022-08-29T18:57:13",
                                 "name": "Scripts",
-                                "hash": "7662bf106e9ed01960ffbf3d6a2d0e99",
+                                "hash": "c1e2dc7d441abfc808d61897959323aa",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -3922,16 +3992,16 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-08-29T18:42:08",
+                                        "lastModified": "2022-08-29T18:48:34",
                                         "name": "Spawn_2D.js",
                                         "hash": "676c28b5d2df7e387cf5f14a1abc0b1c",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-05-14T18:35:16",
+                                        "lastModified": "2022-08-29T18:55:41",
                                         "name": "Spawn_3D.js",
-                                        "hash": "17c721d638fe88268a8aae577d6b91eb",
+                                        "hash": "220aab7777214b0e09dce188af897c3c",
                                         "children": ""
                                     },
                                     {
@@ -3943,13 +4013,6 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-08-29T18:39:41",
-                                        "name": "TweenBoxDiffuse.lsmat",
-                                        "hash": "680032153224c9b292f227cc494355ba",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
                                         "lastModified": "2022-08-29T18:40:17",
                                         "name": "TweenColorChange_2D.js",
                                         "hash": "de9acaf31a6498d3dcb40fc2a6598bdd",
@@ -3957,19 +4020,12 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-08-28T19:10:50",
+                                        "lastModified": "2022-08-29T18:57:45",
                                         "name": "TweenColorChange_3D.js",
-                                        "hash": "1004ae434112c128f9aaa64171892efd",
+                                        "hash": "c4aee6ca2caf044ad9870a4720e67ff2",
                                         "children": ""
                                     }
                                 ]
-                            },
-                            {
-                                "isFolder": "false",
-                                "lastModified": "2022-08-29T18:33:18",
-                                "name": "World Mesh Default.lsmat",
-                                "hash": "a17ed4393976b4f3f564bd6e69ce774f",
-                                "children": ""
                             }
                         ]
                     }
@@ -4159,50 +4215,8 @@
                                 "publicId": "29451",
                                 "source": "C:\/Users\/matik\/Desktop\/LensProject\/LensProject\/Public\/Scripts\/Tween.js",
                                 "additional": ""
-                            },
-                            {
-                                "name": "TweenBoxDiffuse",
-                                "type": "2",
-                                "subtype": "1",
-                                "resourceId": "203",
-                                "dependency": "0",
-                                "hidden": "false",
-                                "uid": "1661791059386272:110190",
-                                "fileId": "346",
-                                "originalId": "347",
-                                "publicId": "29524",
-                                "source": "",
-                                "additional": ""
                             }
                         ]
-                    },
-                    {
-                        "name": "World Mesh",
-                        "type": "3",
-                        "subtype": "3",
-                        "resourceId": "57",
-                        "dependency": "0",
-                        "hidden": "false",
-                        "uid": "1651772221196130:725556",
-                        "fileId": "18446744073709551615",
-                        "originalId": "18446744073709551615",
-                        "publicId": "18446744073709551615",
-                        "source": "",
-                        "additional": ""
-                    },
-                    {
-                        "name": "World Mesh Default",
-                        "type": "2",
-                        "subtype": "1",
-                        "resourceId": "58",
-                        "dependency": "0",
-                        "hidden": "false",
-                        "uid": "1651772221411567:725589",
-                        "fileId": "94",
-                        "originalId": "95",
-                        "publicId": "29340",
-                        "source": "",
-                        "additional": ""
                     },
                     {
                         "name": "Log_To_Screen",
@@ -6899,12 +6913,125 @@
                                 "additional": ""
                             }
                         ]
+                    },
+                    {
+                        "name": "Assets",
+                        "type": "0",
+                        "subtype": "-1",
+                        "resourceId": "-1",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "-1:-1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "29531",
+                        "source": "",
+                        "additional": "",
+                        "resources": [
+                            {
+                                "name": "World Mesh Default",
+                                "type": "2",
+                                "subtype": "1",
+                                "resourceId": "58",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "1651772221411567:725589",
+                                "fileId": "94",
+                                "originalId": "95",
+                                "publicId": "29340",
+                                "source": "",
+                                "additional": ""
+                            },
+                            {
+                                "name": "World Mesh",
+                                "type": "3",
+                                "subtype": "3",
+                                "resourceId": "57",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "1651772221196130:725556",
+                                "fileId": "18446744073709551615",
+                                "originalId": "18446744073709551615",
+                                "publicId": "18446744073709551615",
+                                "source": "",
+                                "additional": ""
+                            },
+                            {
+                                "name": "TweenBoxDiffuse",
+                                "type": "2",
+                                "subtype": "1",
+                                "resourceId": "203",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "1661791059386272:110190",
+                                "fileId": "346",
+                                "originalId": "347",
+                                "publicId": "29524",
+                                "source": "",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Box",
+                                "type": "3",
+                                "subtype": "0",
+                                "resourceId": "208",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "1661791411342410:202989",
+                                "fileId": "358",
+                                "originalId": "18446744073709551615",
+                                "publicId": "29530",
+                                "source": "C:\/Users\/matik\/Desktop\/LensProject\/LensProject\/Public\/Box.mesh",
+                                "additional": {
+                                    "info": {
+                                        "vertexAttribs": [
+                                            {
+                                                "semantic": "position",
+                                                "format": "9",
+                                                "canBeDisabled": "false"
+                                            },
+                                            {
+                                                "semantic": "normal",
+                                                "format": "9",
+                                                "canBeDisabled": "true"
+                                            },
+                                            {
+                                                "semantic": "tangent",
+                                                "format": "9",
+                                                "canBeDisabled": "true"
+                                            },
+                                            {
+                                                "semantic": "color",
+                                                "format": "3",
+                                                "canBeDisabled": "true"
+                                            },
+                                            {
+                                                "semantic": "texture0",
+                                                "format": "9",
+                                                "canBeDisabled": "true"
+                                            }
+                                        ],
+                                        "hasBlendShapes": "false"
+                                    }
+                                }
+                            }
+                        ]
                     }
                 ]
             }
         },
         "InspectorController": {
-            "selection": ""
+            "selection": {
+                "resources": [
+                    {
+                        "uid": "1661791059386272:110190",
+                        "path_list": [
+                            "Assets",
+                            "TweenBoxDiffuse"
+                        ]
+                    }
+                ]
+            }
         },
         "EffectsController": {
             "1": "",
@@ -10379,6 +10506,62 @@
                             }
                         },
                         "uncompressed_file": "249",
+                        "compressed_files": ""
+                    }
+                },
+                {
+                    "k": "1661791411342410:202989",
+                    "v": {
+                        "infos": {
+                            "originalSize": "794",
+                            "compressedSize": "794",
+                            "originalRAM": "1320",
+                            "compressedRAM": "1320",
+                            "extension": "mesh",
+                            "settings": {
+                                "isCompressed": "false",
+                                "info": {
+                                    "vertexAttribs": [
+                                        {
+                                            "semantic": "position",
+                                            "format": "9",
+                                            "canBeDisabled": "false"
+                                        },
+                                        {
+                                            "semantic": "normal",
+                                            "format": "9",
+                                            "canBeDisabled": "true"
+                                        },
+                                        {
+                                            "semantic": "tangent",
+                                            "format": "9",
+                                            "canBeDisabled": "true"
+                                        },
+                                        {
+                                            "semantic": "color",
+                                            "format": "3",
+                                            "canBeDisabled": "true"
+                                        },
+                                        {
+                                            "semantic": "texture0",
+                                            "format": "9",
+                                            "canBeDisabled": "true"
+                                        }
+                                    ],
+                                    "hasBlendShapes": "false"
+                                },
+                                "type": "0",
+                                "attributeFormat": "",
+                                "draco": {
+                                    "posBits": "11",
+                                    "texBits": "10",
+                                    "normalBits": "8",
+                                    "colorBits": "8",
+                                    "compressLvl": "7"
+                                }
+                            }
+                        },
+                        "uncompressed_file": "359",
                         "compressed_files": ""
                     }
                 }
