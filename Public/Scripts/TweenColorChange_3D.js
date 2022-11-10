@@ -1,6 +1,6 @@
 // -----JS CODE-----
 //@input float TimeOfAnimation = 1.0
-// @input float delay = 1.0
+//@input float delay = 1.0
 
 script.api.tween = null;
 
@@ -34,7 +34,9 @@ function setupTween() {
     for(var i = 0; i < global.matrix.length; i++) {
         for (var j = 0; j < global.matrix.length; j++) {
             for (var k = 0; k < global.matrix.length; k++) {
-                setupColorComponentTweens("Component.MaterialMeshVisual", matrix[i][j][k], i, j, k);
+                if (global.heatness[i][j][k] != 0) {
+                    setupColorComponentTweens("Component.MaterialMeshVisual", global.matrix[i][j][k], i, j, k);
+                }
             }
         }
     }
@@ -47,7 +49,6 @@ function setupTween() {
 
 // Create Tweens for specific Visual Component (e.g. MaterialMeshVisual or Text)
 function setupColorComponentTweens(componentType, sceneObject, x, y, z) {
-
     var visualComponents = sceneObject.getComponents(componentType);
     for (var i = 0; i < visualComponents.length; i++) {
         var visualComponent = visualComponents[i];
@@ -76,6 +77,7 @@ function setupColorComponentTweens(componentType, sceneObject, x, y, z) {
                 a: 0
             }
         }
+            
         endValue = {
             r: (255 * global.heatness[x][y][z]).toFixed(0),
             g: 0,
@@ -83,11 +85,12 @@ function setupColorComponentTweens(componentType, sceneObject, x, y, z) {
             a: global.heatness[x][y][z]
         }
 
+        
         // Create the tween
         tween = new TWEEN.Tween(startValue)
             .to(endValue, script.TimeOfAnimation * 1000.0)
-            .delay(script.delay * 1000.0)
             .easing(TWEEN.Easing.Linear.None)
+            .delay(script.delay * 1000)
             .onUpdate(updateColorComponent(visualComponent));
 
         if (tween) {
@@ -96,7 +99,7 @@ function setupColorComponentTweens(componentType, sceneObject, x, y, z) {
             script.api.tween.push(tween);
         } else {
             print("Tween Color: Tween Manager not initialized. Try moving the TweenManager script to the top of the Objects Panel or changing the event on this TweenType to \"Lens Turned On\".");
-        }
+        } 
     }
 }
 

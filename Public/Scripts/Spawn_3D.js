@@ -43,12 +43,25 @@ global.heatness[script.heatnessSource_X][script.heatnessSource_Y][script.heatnes
 var heatnessSource = [script.heatnessSource_X, script.heatnessSource_Y, script.heatnessSource_Z];
 var renderMeshVisual = global.matrix[script.heatnessSource_X][script.heatnessSource_Y][script.heatnessSource_Z].getComponent("Component.RenderMeshVisual");
 
-
 for (var t = 0; t < script.time; t++){
-    spreadHeatness(script.h, script.dt, script.e, [script.heatnessSource_X, script.heatnessSource_Y, script.heatnessSource_Z]);
+    global.heatness = spreadHeatness(script.h, script.dt, script.e);
 }
 
+deleteZeros()
+
 global.startTween();
+
+function deleteZeros() {
+    for (var x = 0; x < global.matrix.length; x++) {
+        for (var y = 0; y < global.matrix.length; y++) {
+            for (var z = 0; z < global.matrix.length; z++) {
+                if (global.heatness[x][y][z] == 0) {
+                    global.matrix[x][y][z].destroy();
+                }
+            }
+        }
+    }
+}
 
 function addNewObject(x, y, z) {
     var newSceneObject = global.scene.createSceneObject("Object");
@@ -59,9 +72,6 @@ function addNewObject(x, y, z) {
     
     newSceneObject.getComponent("Component.MaterialMeshVisual").clearMaterials();
     newSceneObject.getComponent("Component.MaterialMeshVisual").addMaterial(visualComponent.getMaterial(0).clone());
-    // var meshComp = newSceneObject.createComponent("Component.RenderMeshVisual");
-    // meshComp.mesh = script.box.getComponent("Component.RenderMeshVisual").mesh;
-    // meshComp.addMaterial(script.boxMaterial.clone());
 
     return newSceneObject;
 }
@@ -77,140 +87,28 @@ function createMatrix(startX, startY, startZ, shape) {
     } 
 }
 
-function spreadHeatness(h, dt, e, centre) {
-    var x = centre[0];
-    var y = centre[1];
-    var z = centre[2];
+function spreadHeatness(h, dt, e) {
+    var newHeatness = global.heatness.map(function(arr) {
+        return arr.slice();
+    });
     
-    calculateHeatness(h, dt, e, x, y, z);
-    
-    for (var i = 1; i < global.matrix.length/2-1; i++) {
-        
-        calculateHeatness(h, dt, e, x-i, y, z);
-        
-        calculateHeatness(h, dt, e, x, y+i, z);
-        
-        calculateHeatness(h, dt, e, x+i, y, z);
-        
-        calculateHeatness(h, dt, e, x, y-i, z);
+    for (var x = 1; x < global.heatness.length-1; x++) {
+        for (var y = 1; y < global.heatness.length-1; y++) {
+            for (var z = 1; z < global.heatness.length-1; z++) {
+				dx2 = e * ((global.heatness[x+1][y][z] - 2*global.heatness[x][y][z] + global.heatness[x-1][y][z]) / (h*h));
+				dy2 = e * ((global.heatness[x][y+1][z] - 2*global.heatness[x][y][z] + global.heatness[x][y-1][z]) / (h*h)); 
+				dz2 = e * ((global.heatness[x][y][z+1] - 2*global.heatness[x][y][z] + global.heatness[x][y][z-1]) / (h*h)); 
 
-        calculateHeatness(h, dt, e, x, y, z-i);
+				var new_color = global.heatness[x][y][z] + dt * dx2 + dt * dy2 + dt * dz2;
 
-        calculateHeatness(h, dt, e, x, y, z+i);  
-        
-        for (var c = 0; c < i; c++) 
-        {
-            var a = i;
-            var b = 1;
-            for (b; b <= a; b++) {
-                calculateHeatness(h, dt, e, x+a, y-b, z+c);
-                calculateHeatness(h, dt, e, x+a, y+b, z+c);
-                calculateHeatness(h, dt, e, x-a, y+b, z+c);
-                calculateHeatness(h, dt, e, x-a, y-b, z+c);
-                
-                calculateHeatness(h, dt, e, x+c, y+a, z-b);
-                calculateHeatness(h, dt, e, x+c, y+a, z+b);
-                calculateHeatness(h, dt, e, x+c, y-a, z+b);
-                calculateHeatness(h, dt, e, x+c, y-a, z-b);
-        
-                calculateHeatness(h, dt, e, x+a, y+c, z-b);
-                calculateHeatness(h, dt, e, x+a, y+c, z+b);
-                calculateHeatness(h, dt, e, x-a, y+c, z+b);
-                calculateHeatness(h, dt, e, x-a, y+c, z-b);
-            }
-                
-            
-            var a = 1;
-            var b = i;
-            for (a; a <= b; a++) {
-                calculateHeatness(h, dt, e, x+a, y-b, z+c);
-                calculateHeatness(h, dt, e, x+a, y+b, z+c);
-                calculateHeatness(h, dt, e, x-a, y+b, z+c);
-                calculateHeatness(h, dt, e, x-a, y-b, z+c);
-                
-                calculateHeatness(h, dt, e, x+c, y+a, z-b);
-                calculateHeatness(h, dt, e, x+c, y+a, z+b);
-                calculateHeatness(h, dt, e, x+c, y-a, z+b);
-                calculateHeatness(h, dt, e, x+c, y-a, z-b);
-        
-                calculateHeatness(h, dt, e, x+a, y+c, z-b);
-                calculateHeatness(h, dt, e, x+a, y+c, z+b);
-                calculateHeatness(h, dt, e, x-a, y+c, z+b);
-                calculateHeatness(h, dt, e, x-a, y+c, z-b);
-            }
-            if (c != 0) {
-               var a = i;
-                var b = 1;
-                for (b; b <= a; b++) {
-                    calculateHeatness(h, dt, e, x+a, y-b, z-c);
-                    calculateHeatness(h, dt, e, x+a, y+b, z-c);
-                    calculateHeatness(h, dt, e, x-a, y+b, z-c);
-                    calculateHeatness(h, dt, e, x-a, y-b, z-c);
-                    
-                    calculateHeatness(h, dt, e, x-c, y+a, z-b);
-                    calculateHeatness(h, dt, e, x-c, y+a, z+b);
-                    calculateHeatness(h, dt, e, x-c, y-a, z+b);
-                    calculateHeatness(h, dt, e, x-c, y-a, z-b);
-            
-                    calculateHeatness(h, dt, e, x+a, y-c, z-b);
-                    calculateHeatness(h, dt, e, x+a, y-c, z+b);
-                    calculateHeatness(h, dt, e, x-a, y-c, z+b);
-                    calculateHeatness(h, dt, e, x-a, y-c, z-b);
-                }
-                    
-                
-                var a = 1;
-                var b = i;
-                for (a; a <= b; a++) {
-                    calculateHeatness(h, dt, e, x+a, y-b, z-c);
-                    calculateHeatness(h, dt, e, x+a, y+b, z-c);
-                    calculateHeatness(h, dt, e, x-a, y+b, z-c);
-                    calculateHeatness(h, dt, e, x-a, y-b, z-c);
-                    
-                    calculateHeatness(h, dt, e, x-c, y+a, z-b);
-                    calculateHeatness(h, dt, e, x-c, y+a, z+b);
-                    calculateHeatness(h, dt, e, x-c, y-a, z+b);
-                    calculateHeatness(h, dt, e, x-c, y-a, z-b);
-            
-                    calculateHeatness(h, dt, e, x+a, y-c, z-b);
-                    calculateHeatness(h, dt, e, x+a, y-c, z+b);
-                    calculateHeatness(h, dt, e, x-a, y-c, z+b);
-                    calculateHeatness(h, dt, e, x-a, y-c, z-b);
-                } 
+				if (x == script.heatnessSource_X && y == script.heatnessSource_Y && z == script.heatnessSource_Z) {                        
+					new_color = new_color + script.heatnessValue;
+				}
+				newHeatness[x][y][z] = new_color;
+				
             }
         }
-      
-        calculateHeatness(h, dt, e, x-i, y+i, z+i);
-        
-        calculateHeatness(h, dt, e, x+i, y+i, z+i);
-        
-        calculateHeatness(h, dt, e, x+i, y-i, z+i);
-        
-        calculateHeatness(h, dt, e, x-i, y-i, z+i);
-        
-        calculateHeatness(h, dt, e, x-i, y+i, z-i);
-        
-        calculateHeatness(h, dt, e, x+i, y+i, z-i);
-        
-        calculateHeatness(h, dt, e, x+i, y-i, z-i);
-        
-        calculateHeatness(h, dt, e, x-i, y-i, z-i);
     }
-}
 
-
-function calculateHeatness(h, dt, e, x, y, z) {
-    if ((x > 0 && x < global.heatness.length-1) && (y> 0 && y < global.heatness.length-1) && (z> 0 && z < global.heatness.length-1)) {
-        
-        dx2 = e * ((global.heatness[x+1][y][z] - 2*global.heatness[x][y][z] + global.heatness[x-1][y][z]) / (h*h));
-        dy2 = e * ((global.heatness[x][y+1][z] - 2*global.heatness[x][y][z] + global.heatness[x][y-1][z]) / (h*h)); 
-        dz2 = e * ((global.heatness[x][y][z+1] - 2*global.heatness[x][y][z] + global.heatness[x][y][z-1]) / (h*h)); 
-
-        var new_color = global.heatness[x][y][z] + dt * dx2 + dt * dy2 + dt * dz2;
-
-        if (x == script.heatnessSource_X && y == script.heatnessSource_Y && z == script.heatnessSource_Z) {                        
-            new_color = new_color + script.heatnessValue;
-        }
-        global.heatness[x][y][z] = new_color;
-    }
+    return newHeatness;
 }

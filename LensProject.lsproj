@@ -3,7 +3,7 @@
     "document_id": "l6YiSe1mBCNuk24_IccF",
     "original_document_id": "l6YiSe1mBCNuk24_IccF",
     "version": "29",
-    "lastChanged": "1661800106851",
+    "lastChanged": "1668088553181",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -528,6 +528,9 @@
                         "font_sheet"
                     ],
                     [
+                        "Script"
+                    ],
+                    [
                         "Scripts",
                         "Spawn_2D"
                     ],
@@ -550,6 +553,15 @@
                     [
                         "Scripts",
                         "TweenManager"
+                    ],
+                    [
+                        "World Mesh"
+                    ],
+                    [
+                        "World Mesh Default"
+                    ],
+                    [
+                        "World Mesh Default 2"
                     ]
                 ]
             ]
@@ -614,7 +626,7 @@
             "mapPinPoints": ""
         },
         "Material::UiComponent": {
-            "active_graph_asset": "1661795334443899:801131"
+            "active_graph_asset": "-1:-1"
         },
         "Script::UiComponent": {
             "active_graph_asset": "-1:-1"
@@ -1385,6 +1397,38 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "312",
+                    "uid": "1668081846287261:14729",
+                    "name": "Files\/File524.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "313",
+                    "uid": "1668085852033777:5444",
+                    "name": "Files\/File525",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "314",
+                    "uid": "1668086845205098:50554",
+                    "name": "",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "315",
+                    "uid": "1668086845302693:50573",
+                    "name": "Files\/File527",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -1412,9 +1456,9 @@
                 "1": "1517446348228144:84822",
                 "2": "1528843813151434:5126",
                 "3": "1651601209340509:53587",
-                "4": "1651772221041696:725496",
-                "5": "1651778433502638:414131",
-                "6": "1661795335353577:801205"
+                "4": "1651778433502638:414131",
+                "5": "1661795335353577:801205",
+                "6": "1668086845035480:50500"
             }
         },
         "LayerComponent": {
@@ -2144,6 +2188,26 @@
                 {
                     "k": "523",
                     "v": "Files\/File523.lsmat"
+                },
+                {
+                    "k": "524",
+                    "v": "Files\/File524.js"
+                },
+                {
+                    "k": "525",
+                    "v": "Files\/File525"
+                },
+                {
+                    "k": "526",
+                    "v": "Files\/File526.lsmat"
+                },
+                {
+                    "k": "527",
+                    "v": "Files\/File527"
+                },
+                {
+                    "k": "528",
+                    "v": "Files\/File528.lsmat"
                 }
             ]
         },
@@ -2537,6 +2601,18 @@
                     {
                         "k": "29670",
                         "v": "Assets\/TweenBox.mesh"
+                    },
+                    {
+                        "k": "29671",
+                        "v": "Script.js"
+                    },
+                    {
+                        "k": "29672",
+                        "v": "World Mesh Default.lsmat"
+                    },
+                    {
+                        "k": "29673",
+                        "v": "World Mesh Default 2.lsmat"
                     }
                 ],
                 "hashes": [
@@ -2554,7 +2630,7 @@
                     },
                     {
                         "k": "27857",
-                        "v": "ed61b894dede9fb0e021ff81d518298b"
+                        "v": "324bd3b1fd5189ec034620211997d704"
                     },
                     {
                         "k": "27858",
@@ -3546,7 +3622,7 @@
                     },
                     {
                         "k": "29574",
-                        "v": "1a733a3623704bf2985578289f6290fd"
+                        "v": "4eca14de731179045a74f2c56f437442"
                     },
                     {
                         "k": "29575",
@@ -3558,11 +3634,11 @@
                     },
                     {
                         "k": "29577",
-                        "v": "5bb1bedf3716f7441f24d8292fd270ca"
+                        "v": "4128050f67246d4676e3a42fa95ef54c"
                     },
                     {
                         "k": "29578",
-                        "v": "5a58a6a38238252f91ec5289976c46de"
+                        "v": "fff4664df1b8b629d7349e0acf590c26"
                     },
                     {
                         "k": "29580",
@@ -3822,7 +3898,7 @@
                     },
                     {
                         "k": "29650",
-                        "v": "7763bead633b3cbbcfdbe63b278c02de"
+                        "v": "0c44809e930d3664223588b0b70cdb6f"
                     },
                     {
                         "k": "29651",
@@ -3874,11 +3950,15 @@
                     },
                     {
                         "k": "29671",
-                        "v": "0484abd87ee78b2745eb9563b19fd6a2"
+                        "v": "59361291686fd7cebf3981836238abbb"
+                    },
+                    {
+                        "k": "29672",
+                        "v": "b38fe1c2d4b14e5b0eef35fdf2549ad6"
                     },
                     {
                         "k": "29673",
-                        "v": "3c7be8d90dfbbcdf3e0ea233b01df2ef"
+                        "v": "04afb9e49df47bedbd66922740d66303"
                     },
                     {
                         "k": "29674",
@@ -3899,20 +3979,80 @@
                     {
                         "k": "29680",
                         "v": "c0acb2dadfffb74eb3a6fa563e16fb8b"
+                    },
+                    {
+                        "k": "29683",
+                        "v": "e5db9d5b19168d2008aa4b1cf1fd13b1"
+                    },
+                    {
+                        "k": "29684",
+                        "v": "437455d53d41309951dcb1ad5d24e6e7"
+                    },
+                    {
+                        "k": "29685",
+                        "v": "7c7653600093a2c804702ef45a2c188a"
+                    },
+                    {
+                        "k": "29686",
+                        "v": "f8e4cbb0fbfa3d4139c98bed9e23ec3f"
+                    },
+                    {
+                        "k": "29688",
+                        "v": "cb227cae25f08b1eb6956339486b5f7b"
+                    },
+                    {
+                        "k": "29689",
+                        "v": "4c94fe9a543a43e8aa2f10efc3c31867"
+                    },
+                    {
+                        "k": "29690",
+                        "v": "1987dfec5b53836cae47c4a678217167"
+                    },
+                    {
+                        "k": "29692",
+                        "v": "c0acb2dadfffb74eb3a6fa563e16fb8b"
+                    },
+                    {
+                        "k": "29695",
+                        "v": "0484abd87ee78b2745eb9563b19fd6a2"
+                    },
+                    {
+                        "k": "29696",
+                        "v": "19bad114d394c6f678324a58945e8f6e"
+                    },
+                    {
+                        "k": "29698",
+                        "v": "c1b5241e6cd8d05edf3ebc8386711ad3"
+                    },
+                    {
+                        "k": "29699",
+                        "v": "4e72b620f00b5514adbc54a2c16d0cbe"
+                    },
+                    {
+                        "k": "29700",
+                        "v": "5fd88443a0c4441208363da3d7ecfbe0"
+                    },
+                    {
+                        "k": "29701",
+                        "v": "a82daae86495a59ec7bd70282e75f979"
+                    },
+                    {
+                        "k": "29703",
+                        "v": "54b5e21104a4a7f86b3d510596fdc27e"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2022-08-29T20:34:23",
+                        "lastModified": "2022-11-10T14:27:25",
                         "name": "Public",
-                        "hash": "cd31e2607cce8e144ff34c47acc80a5b",
+                        "hash": "4db18bd672f9f897aa2358e783b7e48a",
                         "children": [
                             {
                                 "isFolder": "true",
-                                "lastModified": "2022-08-29T20:34:43",
+                                "lastModified": "2022-11-10T14:21:10",
                                 "name": "Assets",
-                                "hash": "e3af03dfb3b61ace4d842443df05a185",
+                                "hash": "c3ea6fc8ada4da862c85f67c60ff7ec6",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -3930,23 +4070,23 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-08-29T19:19:08",
+                                        "lastModified": "2022-11-10T14:21:00",
                                         "name": "TweenBoxDiffuse.lsmat",
-                                        "hash": "5bb1bedf3716f7441f24d8292fd270ca",
+                                        "hash": "4128050f67246d4676e3a42fa95ef54c",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-08-29T20:33:22",
+                                        "lastModified": "2022-11-10T14:21:00",
                                         "name": "TweenBoxDiffuse_Alt.lsmat",
-                                        "hash": "7763bead633b3cbbcfdbe63b278c02de",
+                                        "hash": "0c44809e930d3664223588b0b70cdb6f",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-08-29T19:19:09",
+                                        "lastModified": "2022-11-10T14:21:00",
                                         "name": "World Mesh Default.lsmat",
-                                        "hash": "5a58a6a38238252f91ec5289976c46de",
+                                        "hash": "fff4664df1b8b629d7349e0acf590c26",
                                         "children": ""
                                     }
                                 ]
@@ -4557,10 +4697,17 @@
                                 ]
                             },
                             {
+                                "isFolder": "false",
+                                "lastModified": "2022-08-22T11:52:54",
+                                "name": "Script.js",
+                                "hash": "59361291686fd7cebf3981836238abbb",
+                                "children": ""
+                            },
+                            {
                                 "isFolder": "true",
-                                "lastModified": "2022-08-29T20:34:50",
+                                "lastModified": "2022-11-10T14:55:30",
                                 "name": "Scripts",
-                                "hash": "1851e7af10fe08f9434cbfc8a52aa7d1",
+                                "hash": "5db1c6e80bbc682ecec2b97a5e2d366e",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -4578,9 +4725,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-08-29T20:25:24",
+                                        "lastModified": "2022-11-10T14:55:05",
                                         "name": "Spawn_3D.js",
-                                        "hash": "ed61b894dede9fb0e021ff81d518298b",
+                                        "hash": "324bd3b1fd5189ec034620211997d704",
                                         "children": ""
                                     },
                                     {
@@ -4599,19 +4746,33 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-08-29T21:08:17",
+                                        "lastModified": "2022-11-10T14:55:30",
                                         "name": "TweenColorChange_3D.js",
-                                        "hash": "1a733a3623704bf2985578289f6290fd",
+                                        "hash": "4eca14de731179045a74f2c56f437442",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-08-29T19:48:52",
+                                        "lastModified": "2022-08-29T21:38:16",
                                         "name": "TweenManager.js",
                                         "hash": "b89e3f7e5bb9e99c64ac1d2ce692bf29",
                                         "children": ""
                                     }
                                 ]
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2022-11-10T14:27:25",
+                                "name": "World Mesh Default 2.lsmat",
+                                "hash": "04afb9e49df47bedbd66922740d66303",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2022-11-10T14:10:52",
+                                "name": "World Mesh Default.lsmat",
+                                "hash": "b38fe1c2d4b14e5b0eef35fdf2549ad6",
+                                "children": ""
                             }
                         ]
                     }
@@ -7616,6 +7777,62 @@
                                 }
                             }
                         ]
+                    },
+                    {
+                        "name": "Script",
+                        "type": "4",
+                        "subtype": "0",
+                        "resourceId": "312",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "1668081846287261:14729",
+                        "fileId": "524",
+                        "originalId": "18446744073709551615",
+                        "publicId": "29671",
+                        "source": "C:\/Users\/matik\/AppData\/Local\/Snap\/Lens Studio\/cache\/temp\/StudiooQMFXToWpPeD\/\/system\/\/emergencyFiles\/emergencyJs.js",
+                        "additional": ""
+                    },
+                    {
+                        "name": "World Mesh Default",
+                        "type": "2",
+                        "subtype": "1",
+                        "resourceId": "313",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "1668085852033777:5444",
+                        "fileId": "525",
+                        "originalId": "526",
+                        "publicId": "29672",
+                        "source": "",
+                        "additional": ""
+                    },
+                    {
+                        "name": "World Mesh",
+                        "type": "3",
+                        "subtype": "3",
+                        "resourceId": "314",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "1668086845205098:50554",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "18446744073709551615",
+                        "source": "",
+                        "additional": ""
+                    },
+                    {
+                        "name": "World Mesh Default 2",
+                        "type": "2",
+                        "subtype": "1",
+                        "resourceId": "315",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "1668086845302693:50573",
+                        "fileId": "527",
+                        "originalId": "528",
+                        "publicId": "29673",
+                        "source": "",
+                        "additional": ""
                     }
                 ]
             }
