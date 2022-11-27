@@ -14,42 +14,46 @@
 //@input int heatnessSource_Z
 //@input int heatnessValue
 
-global.matrix = [];
-for(var i=0; i < script.MatrixShape; i++) {
-    global.matrix[i] = [];
-    for(var j=0; j < script.MatrixShape; j++)
-        global.matrix[i][j] = new Array(script.MatrixShape);
-}
 
-global.heatness = [];
-for(var i=0; i < script.MatrixShape; i++) {
-    global.heatness[i] = [];
-    for(var j=0; j < script.MatrixShape; j++) {
-        global.heatness[i][j] = [];
-        for(var k=0; k < script.MatrixShape; k++) {
-            global.heatness[i][j][k] = 0;
+global.startVisualization = function() {
+    
+    global.matrix = [];
+    for(var i=0; i < script.MatrixShape; i++) {
+        global.matrix[i] = [];
+        for(var j=0; j < script.MatrixShape; j++)
+            global.matrix[i][j] = new Array(script.MatrixShape);
+    }
+    
+    global.heatness = [];
+    for(var i=0; i < script.MatrixShape; i++) {
+        global.heatness[i] = [];
+        for(var j=0; j < script.MatrixShape; j++) {
+            global.heatness[i][j] = [];
+            for(var k=0; k < script.MatrixShape; k++) {
+                global.heatness[i][j][k] = 0;
+            }
         }
     }
-}
-
-var centerOfScreenPos = new vec2(0.5, 0.5);
-if (global.WorldMeshController.isInitialize) {
-    var rayCastRes = global.WorldMeshController.getHitTestResult(centerOfScreenPos);
-    if (!rayCastRes.isValid()) {
-        return;
-    } else if (rayCastRes.getClassification() == 4) {
-        global.textLogger.clear();
-        var pos = rayCastRes.getWorldPos();
-        var substractValue = script.MatrixShape/2 * 3.5;
-        createMatrix(pos.x-substractValue, pos.y, pos.z-substractValue, script.MatrixShape);
-        
-        global.heatness[script.heatnessSource_X][script.heatnessSource_Y][script.heatnessSource_Z] = script.heatnessValue;
-        for (var t = 0; t < script.time; t++) {
-            global.heatness = spreadHeatness(script.h, script.dt, script.e);
+    
+    var centerOfScreenPos = new vec2(0.5, 0.5);
+    if (global.WorldMeshController.isInitialize) {
+        var rayCastRes = global.WorldMeshController.getHitTestResult(centerOfScreenPos);
+        if (!rayCastRes.isValid()) {
+            return;
+        } else if (rayCastRes.getClassification() == 4) {
+            global.textLogger.clear();
+            var pos = rayCastRes.getWorldPos();
+            var substractValue = script.MatrixShape/2 * 3.5;
+            createMatrix(pos.x-substractValue, pos.y, pos.z-substractValue, script.MatrixShape);
+            
+            global.heatness[script.heatnessSource_X][script.heatnessSource_Y][script.heatnessSource_Z] = script.heatnessValue;
+            for (var t = 0; t < script.time; t++) {
+                global.heatness = spreadHeatness(script.h, script.dt, script.e);
+            }
+            global.startTween();
+        } else {
+            global.logToScreen("Wrong suface: " + rayCastRes.getClassification());
         }
-        global.startTween();
-    } else {
-        global.logToScreen("Wrong suface: " + rayCastRes.getClassification());
     }
 }
 
