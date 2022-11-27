@@ -3,14 +3,14 @@
     "document_id": "z6UZhBZEXo1QuSYHY1cl",
     "original_document_id": "l6YiSe1mBCNuk24_IccF",
     "version": "29",
-    "lastChanged": "1669560239525",
+    "lastChanged": "1669561883882",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
     "isReadOnly": "false",
     "isAutoSaved": "true",
     "api_level": "public",
-    "public_api_user_data_access": "unrestricted",
+    "public_api_user_data_access": "restricted",
     "studioVersion": {
         "createdWith": {
             "type": "Public",
@@ -64,6 +64,9 @@
                     [
                         "Echopark",
                         "Specular"
+                    ],
+                    [
+                        "Log_To_Screen"
                     ],
                     [
                         "Log_To_Screen",
@@ -535,9 +538,6 @@
                         "font_sheet"
                     ],
                     [
-                        "Scripts"
-                    ],
-                    [
                         "Scripts",
                         "Behavior"
                     ],
@@ -714,6 +714,14 @@
                         "Resources",
                         "Textures",
                         "half_circle"
+                    ],
+                    [
+                        "[Example][Connected Lenses] Multiplayer Session",
+                        "Connected Lens Module"
+                    ],
+                    [
+                        "[Example][Connected Lenses] Multiplayer Session",
+                        "Connected Lenses - Multiplayer Session"
                     ]
                 ]
             ]
@@ -743,7 +751,7 @@
         },
         "PreviewUiComponent": {
             "preview_descriptor": {
-                "is_capture": "0",
+                "is_capture": "3",
                 "camera_type": "2"
             },
             "show_snap_ui": "true",
@@ -1689,6 +1697,22 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "419",
+                    "uid": "1669560535918413:553454",
+                    "name": "Files\/File688.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "420",
+                    "uid": "1669560535944082:553463",
+                    "name": "",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
                 }
             ],
             "MaterialUpdateManager": {
@@ -2020,7 +2044,8 @@
                 "24": "1669559211099635:363574",
                 "25": "1669559211155577:363945",
                 "26": "1669559211187475:364184",
-                "27": "1669559211243196:364553"
+                "27": "1669559211243196:364553",
+                "28": "1669560535945065:553466"
             }
         },
         "LayerComponent": {
@@ -2862,6 +2887,10 @@
                 {
                     "k": "687",
                     "v": "Files\/File687.ttf"
+                },
+                {
+                    "k": "688",
+                    "v": "Files\/File688.js"
                 }
             ]
         },
@@ -3363,6 +3392,14 @@
                     {
                         "k": "29796",
                         "v": "UI\/Resources\/Fonts\/fredoka_one_regular.ttf"
+                    },
+                    {
+                        "k": "29797",
+                        "v": "[Example][Connected Lenses] Multiplayer Session"
+                    },
+                    {
+                        "k": "29798",
+                        "v": "[Example][Connected Lenses] Multiplayer Session\/Connected Lenses - Multiplayer Session.js"
                     }
                 ],
                 "hashes": [
@@ -3380,7 +3417,7 @@
                     },
                     {
                         "k": "27857",
-                        "v": "b96f123e2bbd3b5ee5b0e9a9390d267d"
+                        "v": "1e483fc2d3f2e380a1a49a3fe1d8d975"
                     },
                     {
                         "k": "27858",
@@ -4648,7 +4685,7 @@
                     },
                     {
                         "k": "29650",
-                        "v": "a36a1486fe2365867d6bc69993ce9c46"
+                        "v": "50d2909f4ccdbba218ad7548cbdb0e1f"
                     },
                     {
                         "k": "29651",
@@ -4712,7 +4749,7 @@
                     },
                     {
                         "k": "29674",
-                        "v": "5cf70bd62744fb06eb2574956756a0b2"
+                        "v": "e146fa41b4547c8efd586591a7058dc0"
                     },
                     {
                         "k": "29675",
@@ -4732,7 +4769,7 @@
                     },
                     {
                         "k": "29679",
-                        "v": "5ffd096748de592367c56ee54d7b63a8"
+                        "v": "e3b2768dbfd028ab67c4ba000f7322a3"
                     },
                     {
                         "k": "29680",
@@ -5161,20 +5198,24 @@
                     {
                         "k": "29796",
                         "v": "4a2f2ea45a0bb1abe81b47d0afde4aae"
+                    },
+                    {
+                        "k": "29798",
+                        "v": "dd0470e2f1bc24e62c1145d679cc9f4c"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2022-11-27T14:51:06",
+                        "lastModified": "2022-11-27T15:48:55",
                         "name": "Public",
-                        "hash": "abc2e2c97067ed706a18e0af2bd89837",
+                        "hash": "1dd7719ffdf5c8583fb543dafbc19111",
                         "children": [
                             {
                                 "isFolder": "true",
-                                "lastModified": "2022-11-27T14:49:09",
+                                "lastModified": "2022-11-27T16:05:10",
                                 "name": "Assets",
-                                "hash": "68498041d97a2905ec316d86e7fd2b73",
+                                "hash": "935508bfcf9e054caa9632346091be51",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -5192,9 +5233,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-11-27T14:47:37",
+                                        "lastModified": "2022-11-27T15:49:19",
                                         "name": "TweenBoxDiffuse.lsmat",
-                                        "hash": "a36a1486fe2365867d6bc69993ce9c46",
+                                        "hash": "50d2909f4ccdbba218ad7548cbdb0e1f",
                                         "children": ""
                                     },
                                     {
@@ -5820,9 +5861,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2022-11-27T15:32:30",
+                                "lastModified": "2022-11-27T16:11:15",
                                 "name": "Scripts",
-                                "hash": "79f2d4539c0444a8838f6f0bc7cc96c7",
+                                "hash": "0f9dee4060047f4f4d1787135e16e853",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -5840,16 +5881,16 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-11-27T15:32:30",
+                                        "lastModified": "2022-11-27T16:11:15",
                                         "name": "MainController.js",
-                                        "hash": "5ffd096748de592367c56ee54d7b63a8",
+                                        "hash": "e3b2768dbfd028ab67c4ba000f7322a3",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-11-27T15:19:12",
+                                        "lastModified": "2022-11-27T16:03:43",
                                         "name": "Spawn_3D.js",
-                                        "hash": "b96f123e2bbd3b5ee5b0e9a9390d267d",
+                                        "hash": "1e483fc2d3f2e380a1a49a3fe1d8d975",
                                         "children": ""
                                     },
                                     {
@@ -5875,9 +5916,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-11-27T14:39:23",
+                                        "lastModified": "2022-11-27T15:54:34",
                                         "name": "WorldMeshController.js",
-                                        "hash": "5cf70bd62744fb06eb2574956756a0b2",
+                                        "hash": "e146fa41b4547c8efd586591a7058dc0",
                                         "children": ""
                                     }
                                 ]
@@ -6148,6 +6189,28 @@
                                                 ]
                                             }
                                         ]
+                                    }
+                                ]
+                            },
+                            {
+                                "isFolder": "true",
+                                "lastModified": "2022-11-27T15:48:55",
+                                "name": "[Example][Connected Lenses] Multiplayer Session",
+                                "hash": "51fbd7d9a7cb813c2509c522f571e46d",
+                                "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-11-27T15:48:55",
+                                        "name": "Connected Lenses - Multiplayer Session.js",
+                                        "hash": "dd0470e2f1bc24e62c1145d679cc9f4c",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-11-27T15:48:55",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
                                     }
                                 ]
                             }
@@ -9580,14 +9643,64 @@
                                 ]
                             }
                         ]
+                    },
+                    {
+                        "name": "[Example][Connected Lenses] Multiplayer Session",
+                        "type": "0",
+                        "subtype": "-1",
+                        "resourceId": "-1",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "-1:-1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "29797",
+                        "source": "",
+                        "additional": "",
+                        "resources": [
+                            {
+                                "name": "Connected Lenses - Multiplayer Session",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "419",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "1669560535918413:553454",
+                                "fileId": "688",
+                                "originalId": "18446744073709551615",
+                                "publicId": "29798",
+                                "source": "C:\/Users\/matik\/AppData\/Local\/Snap\/Lens Studio\/cache\/temp\/StudiolSFKLfHaTGmn\/\/system\/\/emergencyFiles\/emergencyJs.js",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Connected Lens Module",
+                                "type": "25",
+                                "subtype": "0",
+                                "resourceId": "420",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "1669560535944082:553463",
+                                "fileId": "18446744073709551615",
+                                "originalId": "18446744073709551615",
+                                "publicId": "18446744073709551615",
+                                "source": "",
+                                "additional": ""
+                            }
+                        ]
                     }
                 ]
             }
         },
         "InspectorController": {
             "selection": {
-                "objects": [
-                    "1651778433502638:414131"
+                "resources": [
+                    {
+                        "uid": "1651572240282866:276222",
+                        "path_list": [
+                            "Scripts",
+                            "Spawn_3D"
+                        ]
+                    }
                 ]
             }
         },
@@ -13127,7 +13240,12 @@
             ]
         },
         "AssetImportController": {
-            "itemUidToID": ""
+            "itemUidToID": [
+                {
+                    "k": "1669560535945065:553466",
+                    "v": "1xKmKO6ZW8xHdKUamnVS1g"
+                }
+            ]
         },
         "DigitalGoodsController": {
             "digital_goods": ""

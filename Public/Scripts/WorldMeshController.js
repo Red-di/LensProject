@@ -46,12 +46,14 @@ function validateInputs() {
 }
 
 function isWorldMeshCapable() {
-    var os = global.deviceInfoSystem.getOS();
-    var isMobile = os === OS.iOS || os === OS.Android;
-    var isInteractivePreview = global.deviceInfoSystem.isEditor() && script.tracker.worldTrackingCapabilities.sceneReconstructionSupported;
-   
-    return isInteractivePreview 
-        || (isMobile && script.tracker.isDeviceTrackingModeSupported(DeviceTrackingMode.World));
+    print(global.deviceInfoSystem);
+    return true;
+//    var os = global.deviceInfoSystem.getOS();
+//    var isMobile = os === OS.iOS || os === OS.Android;
+//    var isInteractivePreview = global.deviceInfoSystem.isEditor() && script.tracker.worldTrackingCapabilities.sceneReconstructionSupported;
+//   
+//    return isInteractivePreview 
+//        || (isMobile && script.tracker.isDeviceTrackingModeSupported(DeviceTrackingMode.World));
 }
 
 var HitTestResult = function(isValid, res) {

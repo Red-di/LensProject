@@ -34,7 +34,7 @@ for(var i=0; i < script.MatrixShape; i++) {
 }
 
 
-global.startVisualization = function() {
+global.startOnTable = function() {
     global.spawn = true;
     
     var centerOfScreenPos = new vec2(0.5, 0.5);
@@ -56,6 +56,20 @@ global.startVisualization = function() {
             global.logToScreen("Wrong suface: " + rayCastRes.getClassification());
         }
     }
+}
+
+global.startInAir = function() {
+    global.spawn = true;
+    var camera_coords = script.camera.getTransform().getWorldPosition();
+    createMatrix(camera_coords.x, camera_coords.y, camera_coords.z, script.MatrixShape);
+    
+    global.heatness[script.heatnessSource_X][script.heatnessSource_Y][script.heatnessSource_Z] = script.heatnessValue;
+    var heatnessSource = [script.heatnessSource_X, script.heatnessSource_Y, script.heatnessSource_Z];
+    var renderMeshVisual = global.matrix[script.heatnessSource_X][script.heatnessSource_Y][script.heatnessSource_Z].getComponent("Component.RenderMeshVisual");
+    
+    for (var t = 0; t < script.time; t++){
+        global.heatness = spreadHeatness(script.h, script.dt, script.e);
+}
 }
 
 function addNewObject(x, y, z) {

@@ -1,11 +1,31 @@
 // -----JS CODE-----
+//@input Component.ScriptComponent multiplayerSession
+//@input SceneObject uiPanel
+
+script.uiPanel.enabled = false;
+
+script.multiplayerSession.onStarterConnectedToSolo = function (session) {
+    // Request to invite others either via friends list or Snapcode
+    script.uiPanel.enabled = true;        
+    script.multiplayerSession.shareSession(); 
+}
+
+script.multiplayerSession.onStarterConnectedToMultiplayer = function (_session) {
+    script.uiPanel.enabled = true;        
+    session = _session;
+}
+
+script.multiplayerSession.onReceiverConnectedToMultiplayer = function (_session) {
+    script.uiPanel.enabled = true;        
+    session = _session;
+}
 
 // Starting 3D visualization
 script.api.spawn = function() {
     if (global.spawn) {
         deleteMatrix();
     }
-    global.startVisualization();
+    global.startInAir();
 }
 
 script.api.startAnimation = function() {
