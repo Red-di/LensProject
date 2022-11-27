@@ -13,27 +13,29 @@
 //@input int heatnessSource_Y
 //@input int heatnessSource_Z
 //@input int heatnessValue
+global.spawn = false;
+
+global.matrix = [];
+for(var i=0; i < script.MatrixShape; i++) {
+    global.matrix[i] = [];
+    for(var j=0; j < script.MatrixShape; j++)
+        global.matrix[i][j] = new Array(script.MatrixShape);
+}
+    
+global.heatness = [];
+for(var i=0; i < script.MatrixShape; i++) {
+    global.heatness[i] = [];
+    for(var j=0; j < script.MatrixShape; j++) {
+        global.heatness[i][j] = [];
+        for(var k=0; k < script.MatrixShape; k++) {
+            global.heatness[i][j][k] = 0;
+        }
+    }
+}
 
 
 global.startVisualization = function() {
-    
-    global.matrix = [];
-    for(var i=0; i < script.MatrixShape; i++) {
-        global.matrix[i] = [];
-        for(var j=0; j < script.MatrixShape; j++)
-            global.matrix[i][j] = new Array(script.MatrixShape);
-    }
-    
-    global.heatness = [];
-    for(var i=0; i < script.MatrixShape; i++) {
-        global.heatness[i] = [];
-        for(var j=0; j < script.MatrixShape; j++) {
-            global.heatness[i][j] = [];
-            for(var k=0; k < script.MatrixShape; k++) {
-                global.heatness[i][j][k] = 0;
-            }
-        }
-    }
+    global.spawn = true;
     
     var centerOfScreenPos = new vec2(0.5, 0.5);
     if (global.WorldMeshController.isInitialize) {
@@ -50,7 +52,6 @@ global.startVisualization = function() {
             for (var t = 0; t < script.time; t++) {
                 global.heatness = spreadHeatness(script.h, script.dt, script.e);
             }
-            global.startTween();
         } else {
             global.logToScreen("Wrong suface: " + rayCastRes.getClassification());
         }
