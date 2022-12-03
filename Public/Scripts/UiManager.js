@@ -27,12 +27,10 @@ script.MainUI.enabled = true;
 
 script.api.addMatrixShape = function() {
     var currentShape = parseInt(script.MatrixShapeText.text);
-    if (currentShape < 15)
+    if (currentShape < 15) {
         script.MatrixShapeText.text = String(currentShape + 1);
-    if (script.MatrixShapeText.text == "15")
-        script.addMatrixShape.enabled = false;
-    else if (script.MatrixShapeText.text != "3" && script.removeMatrixShape.enabled == false)
-        script.removeMatrixShape.enabled = true;
+        checkAddMatrixShape();
+    }
 
     if (script.addX.enabled == false) 
         script.addX.enabled = true;
@@ -42,14 +40,19 @@ script.api.addMatrixShape = function() {
         script.addZ.enabled = true;
 }
 
+function checkAddMatrixShape() {
+    if (script.MatrixShapeText.text == "15")
+        script.addMatrixShape.enabled = false;
+    else if (script.MatrixShapeText.text != "3" && script.removeMatrixShape.enabled == false)
+        script.removeMatrixShape.enabled = true;
+}
+
 script.api.removeMatrixShape = function() {
     var currentShape = parseInt(script.MatrixShapeText.text);
-    if (currentShape > 3)
+    if (currentShape > 3) {
         script.MatrixShapeText.text = String(currentShape - 1);
-    if (script.MatrixShapeText.text == "3")
-        script.removeMatrixShape.enabled = false;
-    else if (script.MatrixShapeText.text != "15" && script.addMatrixShape.enabled == false)
-        script.addMatrixShape.enabled = true;
+        checkRemoveMatrixShape();
+    }
 
     if (script.addX.enabled == false) 
         script.api.removeX();
@@ -67,10 +70,22 @@ script.api.removeMatrixShape = function() {
         script.addZ.enabled = false;
 }
 
+function checkRemoveMatrixShape() {
+    if (script.MatrixShapeText.text == "3")
+        script.removeMatrixShape.enabled = false;
+    else if (script.MatrixShapeText.text != "15" && script.addMatrixShape.enabled == false)
+        script.addMatrixShape.enabled = true;
+}
+
 script.api.addHeat = function() {
     var currentHeat = parseInt(script.Heat.text);
-    if (currentHeat < 10)
+    if (currentHeat < 10) {
         script.Heat.text = String(currentHeat + 1);
+        checkAddHeat();
+    }
+}
+
+function checkAddHeat() {
     if (script.Heat.text == "10")
         script.addHeat.enabled = false;
     else if (script.Heat.text != "1" && script.removeHeat.enabled == false)
@@ -79,8 +94,13 @@ script.api.addHeat = function() {
 
 script.api.removeHeat = function() {
     var currentHeat = parseInt(script.Heat.text);
-    if (currentHeat > 1)
+    if (currentHeat > 1) {
         script.Heat.text = String(currentHeat - 1);
+        checkRemoveHeat();
+    }
+}
+
+function checkRemoveHeat() {
     if (script.Heat.text == "1")
         script.removeHeat.enabled = false;
     else if (script.Heat.text != "10" && script.addHeat.enabled == false)
@@ -89,8 +109,13 @@ script.api.removeHeat = function() {
 
 script.api.addTime = function() {
     var currentTime = parseInt(script.AnimationTime.text);
-    if (currentTime < parseInt(60))
+    if (currentTime < parseInt(60)) {
         script.AnimationTime.text = String(currentTime + 1);
+        checkAddTime();
+    }
+}
+
+function checkAddTime() {
     if (script.AnimationTime.text == "60")
         script.addTime.enabled = false;
     else if (script.AnimationTime.text != "1" && script.removeTime.enabled == false)
@@ -99,19 +124,29 @@ script.api.addTime = function() {
 
 script.api.removeTime = function() {
     var currentTime = parseInt(script.AnimationTime.text);
-    if (currentTime > 1)
+    if (currentTime > 1) {
         script.AnimationTime.text = String(currentTime - 1);
+        checkRemoveTime();
+    }
+
+}
+
+function checkRemoveTime() {
     if (script.AnimationTime.text == "1")
         script.removeTime.enabled = false;
     else if (script.AnimationTime.text != "60" && script.addTime.enabled == false)
         script.addTime.enabled = true;
 }
 
-
 script.api.addX = function() {
     var currentX = parseInt(script.HeatSourceX.text);
-    if (currentX < parseInt(script.MatrixShapeText.text) - 2)
+    if (currentX < parseInt(script.MatrixShapeText.text) - 2) {
         script.HeatSourceX.text = String(currentX + 1);
+        checkAddX();
+    }
+}
+
+function checkAddX() {
     if (script.HeatSourceX.text == String(parseInt(script.MatrixShapeText.text)) - 2)
         script.addX.enabled = false;
     else if (script.HeatSourceX.text != "1" && script.removeX.enabled == false)
@@ -120,8 +155,13 @@ script.api.addX = function() {
 
 script.api.removeX = function() {
     var currentX = parseInt(script.HeatSourceX.text);
-    if (currentX > 1)
+    if (currentX > 1) {
         script.HeatSourceX.text = String(currentX - 1);
+        checkRemoveX();
+    }
+}
+
+function checkRemoveX() {
     if (script.HeatSourceX.text == "1")
         script.removeX.enabled = false;
     else if (script.HeatSourceX.text != String(parseInt(script.MatrixShapeText.text)) - 2 && script.addX.enabled == false)
@@ -130,18 +170,28 @@ script.api.removeX = function() {
 
 script.api.addY = function() {
     var currentY = parseInt(script.HeatSourceY.text);
-    if (currentY < parseInt(script.MatrixShapeText.text) - 2)
+    if (currentY < parseInt(script.MatrixShapeText.text) - 2) {
         script.HeatSourceY.text = String(currentY + 1);
+        checkAddY();
+    }
+}
+
+function checkAddY() {
     if (script.HeatSourceY.text == String(parseInt(script.MatrixShapeText.text)) - 2)
         script.addY.enabled = false;
     else if (script.HeatSourceY.text != "1" && script.removeY.enabled == false)
         script.removeY.enabled = true;
-}
+    }
 
 script.api.removeY = function() {
     var currentY = parseInt(script.HeatSourceY.text);
-    if (currentY > 1)
+    if (currentY > 1) {
         script.HeatSourceY.text = String(currentY - 1);
+        checkRemoveY();
+    }
+}
+
+function checkRemoveY() {
     if (script.HeatSourceY.text == "1")
         script.removeY.enabled = false;
     else if (script.HeatSourceY.text != String(parseInt(script.MatrixShapeText.text)) - 2 && script.addY.enabled == false)
@@ -150,18 +200,28 @@ script.api.removeY = function() {
 
 script.api.addZ = function() {
     var currentZ = parseInt(script.HeatSourceZ.text);
-    if (currentZ < parseInt(script.MatrixShapeText.text) - 2)
+    if (currentZ < parseInt(script.MatrixShapeText.text) - 2) {
         script.HeatSourceZ.text = String(currentZ + 1);
+        checkAddZ();
+    }
+}
+
+function checkAddZ() {
     if (script.HeatSourceZ.text == String(parseInt(script.MatrixShapeText.text)) - 2)
         script.addZ.enabled = false;
     else if (script.HeatSourceZ.text != "1" && script.removeZ.enabled == false)
         script.removeZ.enabled = true;
-}
+    }
 
 script.api.removeZ = function() {
     var currentZ = parseInt(script.HeatSourceZ.text);
-    if (currentZ > 1)
+    if (currentZ > 1) {
         script.HeatSourceZ.text = String(currentZ - 1);
+        checkRemoveZ();
+    }
+}
+
+function checkRemoveZ() {
     if (script.HeatSourceZ.text == "1")
         script.removeZ.enabled = false;
     else if (script.HeatSourceZ.text != String(parseInt(script.MatrixShapeText.text)) - 2 && script.addZ.enabled == false)
@@ -175,6 +235,20 @@ script.api.cancel = function() {
     script.HeatSourceY.text = String(global.heatnessSource_Y);
     script.HeatSourceZ.text = String(global.heatnessSource_Z);
     script.AnimationTime.text = String(global.animationTime);
+
+    checkAddMatrixShape();
+    checkRemoveMatrixShape();
+    checkAddHeat();
+    checkRemoveHeat();
+    checkAddTime();
+    checkRemoveTime();
+    checkAddX();
+    checkRemoveX();
+    checkAddY();
+    checkRemoveY();
+    checkAddZ();
+    checkRemoveZ();
+
     script.MatrixUI.enabled = false;
     script.MainUI.enabled = true;
 }
