@@ -3,7 +3,7 @@
     "document_id": "z6UZhBZEXo1QuSYHY1cl",
     "original_document_id": "l6YiSe1mBCNuk24_IccF",
     "version": "29",
-    "lastChanged": "1669561883882",
+    "lastChanged": "1670090975075",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -738,7 +738,8 @@
                     "1669557068497760:39886",
                     "1669557329497505:126230",
                     "1669559211037874:363098"
-                ]
+                ],
+                ""
             ],
             "selectionSetList": ""
         },
@@ -4685,7 +4686,7 @@
                     },
                     {
                         "k": "29650",
-                        "v": "50d2909f4ccdbba218ad7548cbdb0e1f"
+                        "v": "9f145e6960331192de4f145c16055f4c"
                     },
                     {
                         "k": "29651",
@@ -4769,7 +4770,7 @@
                     },
                     {
                         "k": "29679",
-                        "v": "e3b2768dbfd028ab67c4ba000f7322a3"
+                        "v": "8a5327563ea407aeb0dbfca85f4ac5ec"
                     },
                     {
                         "k": "29680",
@@ -5207,47 +5208,47 @@
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2022-11-27T15:48:55",
+                        "lastModified": "2022-12-03T19:05:40",
                         "name": "Public",
-                        "hash": "1dd7719ffdf5c8583fb543dafbc19111",
+                        "hash": "aeed1ed0e6714b30666f3f6471bacac3",
                         "children": [
                             {
                                 "isFolder": "true",
-                                "lastModified": "2022-11-27T16:05:10",
+                                "lastModified": "2022-12-03T19:07:47",
                                 "name": "Assets",
-                                "hash": "935508bfcf9e054caa9632346091be51",
+                                "hash": "c31136ba9afb8f9a01ae6577aaf8e990",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-11-27T14:39:23",
+                                        "lastModified": "2022-12-03T19:05:40",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-11-27T14:39:23",
+                                        "lastModified": "2022-12-03T19:05:40",
                                         "name": "TweenBox.mesh",
                                         "hash": "0f22bac28f4bb7f9303722acb5d035e0",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-11-27T15:49:19",
+                                        "lastModified": "2022-12-03T19:06:12",
                                         "name": "TweenBoxDiffuse.lsmat",
-                                        "hash": "50d2909f4ccdbba218ad7548cbdb0e1f",
+                                        "hash": "9f145e6960331192de4f145c16055f4c",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-11-27T14:47:37",
+                                        "lastModified": "2022-12-03T19:05:40",
                                         "name": "World Mesh Default 2.lsmat",
                                         "hash": "ca592aa879857002a9aa50ebb72c0c7b",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-11-27T14:47:37",
+                                        "lastModified": "2022-12-03T19:05:40",
                                         "name": "World Mesh Default.lsmat",
                                         "hash": "e6d92561e6c50aecdb2d0c03b7247e86",
                                         "children": ""
@@ -5256,585 +5257,585 @@
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2022-11-27T14:39:23",
+                                "lastModified": "2022-12-03T19:05:40",
                                 "name": "Echopark.hdr",
                                 "hash": "0cf0e87a54f33218fcf92a12d7f0ede2",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2022-11-27T14:39:23",
+                                "lastModified": "2022-12-03T19:05:40",
                                 "name": "folder.lock",
                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                 "children": ""
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2022-11-27T14:39:23",
+                                "lastModified": "2022-12-03T19:05:40",
                                 "name": "Log_To_Screen",
                                 "hash": "a95f97ca936f36f512b1cc3b19c43ef9",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-11-27T14:39:23",
+                                        "lastModified": "2022-12-03T19:05:40",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-11-27T14:39:23",
+                                        "lastModified": "2022-12-03T19:05:40",
                                         "name": "font_mat.lsmat",
                                         "hash": "ae909aaaefcaf852af03610744a03234",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-11-27T14:39:23",
+                                        "lastModified": "2022-12-03T19:05:40",
                                         "name": "font_sheet.png",
                                         "hash": "9d2c010db87568d60d4e430164ec4585",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2022-11-27T14:39:23",
+                                        "lastModified": "2022-12-03T19:05:40",
                                         "name": "LetterMeshes",
                                         "hash": "d28e3bdff4c1620e0e7be79b89d6bc5a",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-11-27T14:39:23",
+                                                "lastModified": "2022-12-03T19:05:40",
                                                 "name": "folder.lock",
                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2022-11-27T14:39:23",
+                                                "lastModified": "2022-12-03T19:05:40",
                                                 "name": "Meshes",
                                                 "hash": "13f7b1a5ab6f31090db94df56e582b53",
                                                 "children": [
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "0.mesh",
                                                         "hash": "6ed1018621b4a04c72bd1801f838dcf2",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "1.mesh",
                                                         "hash": "064acd9b7ddbb4c28f4e058bfac48a27",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "2.mesh",
                                                         "hash": "03985e273c77090439700d2bb82af411",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "3.mesh",
                                                         "hash": "049f88c7cb4eab6d3c58359ee4e74a55",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "4.mesh",
                                                         "hash": "a36a9539d4ba36c0e7e7b6be9a300926",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "5.mesh",
                                                         "hash": "590bea99b1a1ab9471d0a90a9950f575",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "6.mesh",
                                                         "hash": "acfb5b879261ccf21f7f6b96bb8c0487",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "7.mesh",
                                                         "hash": "7ea71962a138003efcf2abad61a68840",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "8.mesh",
                                                         "hash": "c57749abec789d089e3b33154f32fe36",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "9.mesh",
                                                         "hash": "264507d2c86b908f16de3392133315d6",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "A_upper.mesh",
                                                         "hash": "f76f5f2543b084b3b078e16cdff874f0",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "B_upper.mesh",
                                                         "hash": "b7a6134fba87321da124ab65a5a451c0",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "C_upper.mesh",
                                                         "hash": "2a9ec5d2766406830dbb42035dd519eb",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "D_upper.mesh",
                                                         "hash": "84318af2029585324009c3ad75e3ca15",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "E_upper.mesh",
                                                         "hash": "d5ad54611267e3ceace265c96246be74",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "folder.lock",
                                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "F_upper.mesh",
                                                         "hash": "a66bab58bda9a21c2e54efd29fb596dc",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "G_upper.mesh",
                                                         "hash": "f88c26e97938fb8be74631ec57fd2e9b",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "H_upper.mesh",
                                                         "hash": "9de68493d55f607622e985a11e238efb",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "I_upper.mesh",
                                                         "hash": "e8ebc9dd6d54f985aecb695edcdbb6d5",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "J_upper.mesh",
                                                         "hash": "0f24d0c522f898d27e1b706db7040978",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "K_upper.mesh",
                                                         "hash": "35712c47dbeb24ebc34d2313b73c3fc3",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "L_upper.mesh",
                                                         "hash": "a5fe4bdbeb00b3317de51a647134e46d",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "M_upper.mesh",
                                                         "hash": "7254fd7cf7ca3cb98ec89a2fd8b7ea85",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "N_upper.mesh",
                                                         "hash": "7bf0b628846ea413d682d88a111c87a5",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "O_upper.mesh",
                                                         "hash": "8080c0f4510255a6a5e80e156e858ae1",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "P_upper.mesh",
                                                         "hash": "14487c10a766094b522efef634b92e3e",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "Q_upper.mesh",
                                                         "hash": "ffbf3a7b77fd1b6c08ba3a64df6cef1f",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "R_upper.mesh",
                                                         "hash": "3bb058f38ce2f0f3099ba598c569847f",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "S_upper.mesh",
                                                         "hash": "016c4200c8d405f5d0ba48a5e36b3f92",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "T_upper.mesh",
                                                         "hash": "b3fb114cb5026233b6f7de8b312b64a4",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "U_upper.mesh",
                                                         "hash": "5b8816ee8e2824c47141999334159e29",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "V_upper.mesh",
                                                         "hash": "013c2df4f92174cd587543b3c9057a1b",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "W_upper.mesh",
                                                         "hash": "73a65bfc27a091a67c3e39302e0cb1b3",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "X_upper.mesh",
                                                         "hash": "f9c53ea5f3db7b211c317e43a089802d",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "Y_upper.mesh",
                                                         "hash": "26222545fe85b621823fcaa5538febcd",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "Z_upper.mesh",
                                                         "hash": "f229fb7bafbec7ad49067480f4db94ef",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "_chr_10.mesh",
                                                         "hash": "ac4d8384a946717fb27f8e61c2bb4098",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "_chr_11.mesh",
                                                         "hash": "7573ce2403afebbb19e4cb6114c2b1fb",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "_chr_12.mesh",
                                                         "hash": "ecdad966cb54a6d7185f4583f4957c40",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "_chr_123.mesh",
                                                         "hash": "219907152211ef5bfaf119c03e1ce983",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "_chr_124.mesh",
                                                         "hash": "c78d7b89143f3c876027c9ed5906b2b3",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "_chr_125.mesh",
                                                         "hash": "f951903348648a14aada210f448dfdf6",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "_chr_126.mesh",
                                                         "hash": "695374e3e661ace915f0329c04b92796",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "_chr_13.mesh",
                                                         "hash": "d168450618121bdc24d1fcdd5dc46378",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "_chr_32.mesh",
                                                         "hash": "e3c9234441e97a20b09beefb8f459e94",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "_chr_33.mesh",
                                                         "hash": "c536ff2fe618bce7689829e83227796f",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "_chr_34.mesh",
                                                         "hash": "df90fd649b22f8ee015fdd0006b54dd2",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "_chr_35.mesh",
                                                         "hash": "d49da574437c49df090ec2d93c4cf21d",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "_chr_36.mesh",
                                                         "hash": "6c9fba248b5a437eaea95ee18e63f7c3",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "_chr_37.mesh",
                                                         "hash": "9b3c99df2a98488de6a3d4163112a209",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "_chr_38.mesh",
                                                         "hash": "17dfd2627d57e6a0cbef81a7904f45f5",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "_chr_39.mesh",
                                                         "hash": "fbd44dda07a8a59e6b2f504f022ec256",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "_chr_40.mesh",
                                                         "hash": "bbeba2c10b5794cb001195ddd155518a",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "_chr_41.mesh",
                                                         "hash": "c932e6d55e4172f54797efb4dac0a27a",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "_chr_42.mesh",
                                                         "hash": "7562549864d19801d6ce8b8f0866bc51",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "_chr_43.mesh",
                                                         "hash": "15c10d23f345178fc37c9810262eef3a",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "_chr_44.mesh",
                                                         "hash": "67365080658c9f3832990d0fd5814958",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "_chr_45.mesh",
                                                         "hash": "6efa08310c91289034501ec6a5e39b6a",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "_chr_46.mesh",
                                                         "hash": "157b134ec75352375364cc0ff3bd1628",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "_chr_47.mesh",
                                                         "hash": "c823ff8d1cca7116f62fcfecdc101517",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "_chr_58.mesh",
                                                         "hash": "edff779332a0dbc1fa76a7819980281c",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "_chr_59.mesh",
                                                         "hash": "666a5a8405e4cd3ff49d1eb4f8ee0a39",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "_chr_60.mesh",
                                                         "hash": "79f499f4e939cfd98838ad2731ae9316",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "_chr_61.mesh",
                                                         "hash": "d1f61a64106902a86bbac8f74f240133",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "_chr_62.mesh",
                                                         "hash": "b03bfebcf1803464166f56379f9455d8",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "_chr_63.mesh",
                                                         "hash": "7fe912fe8a268102e5fad159fc134b3e",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "_chr_64.mesh",
                                                         "hash": "2ce3c6a0ee03e5b3132a2dc2aed67208",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "_chr_9.mesh",
                                                         "hash": "e6236215c39a3f354e75e7362c92a401",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "_chr_91.mesh",
                                                         "hash": "ec29e8b488ed08468d68f0f27d90c54b",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "_chr_92.mesh",
                                                         "hash": "4f849589fa8b3fd0d16badf257eb1892",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "_chr_93.mesh",
                                                         "hash": "46be23ce61d8437bcca27f7ad2a83b3a",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "_chr_94.mesh",
                                                         "hash": "d802517ade5cce34fa4c5fa8c3a60dc2",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "_chr_95.mesh",
                                                         "hash": "5eceba0f6bc579471908f7b8f2afb5e1",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:39:23",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "_chr_96.mesh",
                                                         "hash": "d35e4f0dc9eecc2ec1ef0b62e93cd725",
                                                         "children": ""
@@ -5845,14 +5846,14 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-11-27T14:39:23",
+                                        "lastModified": "2022-12-03T19:05:40",
                                         "name": "TextLogger.js",
                                         "hash": "8d5001fc01941e40f12689d862c35dac",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-11-27T14:39:23",
+                                        "lastModified": "2022-12-03T19:05:40",
                                         "name": "TextLoggerInput.js",
                                         "hash": "869fa0ed08f0aac5f4ec6f6d071abd75",
                                         "children": ""
@@ -5861,62 +5862,62 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2022-11-27T16:11:15",
+                                "lastModified": "2022-12-03T19:08:42",
                                 "name": "Scripts",
-                                "hash": "0f9dee4060047f4f4d1787135e16e853",
+                                "hash": "8ab0b6eb6aeaee06e6697d13b333f0dd",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-11-27T14:39:23",
+                                        "lastModified": "2022-12-03T19:05:40",
                                         "name": "Behavior.js",
                                         "hash": "324d936bf1b61fe7a9ad8efc0bd63807",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-11-27T14:39:23",
+                                        "lastModified": "2022-12-03T19:05:40",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-11-27T16:11:15",
+                                        "lastModified": "2022-12-03T19:08:42",
                                         "name": "MainController.js",
-                                        "hash": "e3b2768dbfd028ab67c4ba000f7322a3",
+                                        "hash": "8a5327563ea407aeb0dbfca85f4ac5ec",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-11-27T16:03:43",
+                                        "lastModified": "2022-12-03T19:05:40",
                                         "name": "Spawn_3D.js",
                                         "hash": "1e483fc2d3f2e380a1a49a3fe1d8d975",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-11-27T14:39:23",
+                                        "lastModified": "2022-12-03T19:05:40",
                                         "name": "Tween.js",
                                         "hash": "db1633dd326bc8f976dd02c2fdb5bbf4",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-11-27T14:39:23",
+                                        "lastModified": "2022-12-03T19:05:40",
                                         "name": "TweenColorChange_3D.js",
                                         "hash": "4c41976b11b1540c9a02ba83af157f37",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-11-27T14:39:23",
+                                        "lastModified": "2022-12-03T19:05:40",
                                         "name": "TweenManager.js",
                                         "hash": "b89e3f7e5bb9e99c64ac1d2ce692bf29",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-11-27T15:54:34",
+                                        "lastModified": "2022-12-03T19:05:40",
                                         "name": "WorldMeshController.js",
                                         "hash": "e146fa41b4547c8efd586591a7058dc0",
                                         "children": ""
@@ -5925,46 +5926,46 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2022-11-27T14:51:07",
+                                "lastModified": "2022-12-03T19:05:40",
                                 "name": "UI",
                                 "hash": "45685c49a0b3845ee3677df1f2197693",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-11-27T14:51:06",
+                                        "lastModified": "2022-12-03T19:05:40",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2022-11-27T14:51:08",
+                                        "lastModified": "2022-12-03T19:05:40",
                                         "name": "Resources",
                                         "hash": "2c12d296c84719c677e181598c147bb4",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-11-27T14:51:07",
+                                                "lastModified": "2022-12-03T19:05:40",
                                                 "name": "folder.lock",
                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2022-11-27T14:51:08",
+                                                "lastModified": "2022-12-03T19:05:40",
                                                 "name": "Fonts",
                                                 "hash": "16060818347d2e309d73a640d4470e01",
                                                 "children": [
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:51:08",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "folder.lock",
                                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:51:06",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "fredoka_one_regular.ttf",
                                                         "hash": "4a2f2ea45a0bb1abe81b47d0afde4aae",
                                                         "children": ""
@@ -5973,33 +5974,33 @@
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2022-11-27T14:51:08",
+                                                "lastModified": "2022-12-03T19:05:40",
                                                 "name": "Hints",
                                                 "hash": "724b778e2d1c9fe3367d731ecb87f31b",
                                                 "children": [
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:51:08",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "folder.lock",
                                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "true",
-                                                        "lastModified": "2022-11-27T14:51:08",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "tap_hint",
                                                         "hash": "03b8525b063b64a4493c136ef7e07fe0",
                                                         "children": [
                                                             {
                                                                 "isFolder": "false",
-                                                                "lastModified": "2022-11-27T14:51:06",
+                                                                "lastModified": "2022-12-03T19:05:40",
                                                                 "name": "animation.t3d",
                                                                 "hash": "1b58692851180994f5fc9e5186b7aa5b",
                                                                 "children": ""
                                                             },
                                                             {
                                                                 "isFolder": "false",
-                                                                "lastModified": "2022-11-27T14:51:06",
+                                                                "lastModified": "2022-12-03T19:05:40",
                                                                 "name": "atlas_0.pvr",
                                                                 "hash": "0f1936de9a90129574210976e17c38f4",
                                                                 "children": ""
@@ -6010,27 +6011,27 @@
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2022-11-27T14:51:12",
+                                                "lastModified": "2022-12-03T19:05:40",
                                                 "name": "Materials",
                                                 "hash": "f164dd2e492e65506cb5019a29438be1",
                                                 "children": [
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:51:07",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "folder.lock",
                                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:51:08",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "Palette Material.lsmat",
                                                         "hash": "2f944a800f31501ef917285d1177bb63",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:51:12",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "Popup Fill.lsmat",
                                                         "hash": "130cbd47241cea212450bc4eecdada65",
                                                         "children": ""
@@ -6039,55 +6040,55 @@
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2022-11-27T14:51:07",
+                                                "lastModified": "2022-12-03T19:05:40",
                                                 "name": "Scripts",
                                                 "hash": "1826a881b2a707e4af83a4cb30719da4",
                                                 "children": [
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:51:07",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "folder.lock",
                                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:51:06",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "UIButton.js",
                                                         "hash": "5b33eee8ee1df2fbb140a5cb2fa939fc",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:51:06",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "UIColorPicker.js",
                                                         "hash": "3899f64c6205627b542fc65f4fa22420",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:51:06",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "UIDiscretePicker.js",
                                                         "hash": "8d56ba82106a6e5c7144ced901f1bfbf",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:51:06",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "UIPanel.js",
                                                         "hash": "dd0fbff3f3a3839661124f523c66116c",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:51:06",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "UIPopup.js",
                                                         "hash": "ff5e821b7f7d018fd0a03a4634d15da1",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:51:06",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "UIToggle.js",
                                                         "hash": "63f5718b78b0e3a23881210d26cfb4b9",
                                                         "children": ""
@@ -6096,54 +6097,54 @@
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2022-11-27T14:51:07",
+                                                "lastModified": "2022-12-03T19:05:40",
                                                 "name": "Textures",
                                                 "hash": "2363de15538aa8b9bced8b11f079bc8a",
                                                 "children": [
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:51:06",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "Base.png",
                                                         "hash": "203b97f7dd88fd357a12944549da2218",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:51:06",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "circle.pvr",
                                                         "hash": "5348e378327d0f21714885cba3843ed2",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "true",
-                                                        "lastModified": "2022-11-27T14:51:07",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "Color Picker",
                                                         "hash": "8d80172213e6b6b1befbdfe0c847a977",
                                                         "children": [
                                                             {
                                                                 "isFolder": "false",
-                                                                "lastModified": "2022-11-27T14:51:06",
+                                                                "lastModified": "2022-12-03T19:05:40",
                                                                 "name": "colorpicker_background.pvr",
                                                                 "hash": "13f99fe5f5f2688822059993c43d0e2e",
                                                                 "children": ""
                                                             },
                                                             {
                                                                 "isFolder": "false",
-                                                                "lastModified": "2022-11-27T14:51:06",
+                                                                "lastModified": "2022-12-03T19:05:40",
                                                                 "name": "colorPicker_popup.pvr",
                                                                 "hash": "4081c5e100cee199c73c5a65bcd3f1af",
                                                                 "children": ""
                                                             },
                                                             {
                                                                 "isFolder": "false",
-                                                                "lastModified": "2022-11-27T14:51:07",
+                                                                "lastModified": "2022-12-03T19:05:40",
                                                                 "name": "folder.lock",
                                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                                 "children": ""
                                                             },
                                                             {
                                                                 "isFolder": "false",
-                                                                "lastModified": "2022-11-27T14:51:06",
+                                                                "lastModified": "2022-12-03T19:05:40",
                                                                 "name": "palette_background.pvr",
                                                                 "hash": "4d11d75ae2243c861010d652ed6f4458",
                                                                 "children": ""
@@ -6152,34 +6153,34 @@
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:51:07",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "folder.lock",
                                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-11-27T14:51:06",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "half_circle.pvr",
                                                         "hash": "f25dcabcebddb9adb6278db0647f5d00",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "true",
-                                                        "lastModified": "2022-11-27T14:51:07",
+                                                        "lastModified": "2022-12-03T19:05:40",
                                                         "name": "Toggle",
                                                         "hash": "b6212903c68504f86e0b85fd0afd6ef8",
                                                         "children": [
                                                             {
                                                                 "isFolder": "false",
-                                                                "lastModified": "2022-11-27T14:51:07",
+                                                                "lastModified": "2022-12-03T19:05:40",
                                                                 "name": "folder.lock",
                                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                                 "children": ""
                                                             },
                                                             {
                                                                 "isFolder": "false",
-                                                                "lastModified": "2022-11-27T14:51:06",
+                                                                "lastModified": "2022-12-03T19:05:40",
                                                                 "name": "toggle_background.pvr",
                                                                 "hash": "8fb4180d0842adf53a14ccf422ddf41d",
                                                                 "children": ""
@@ -6194,20 +6195,20 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2022-11-27T15:48:55",
+                                "lastModified": "2022-12-03T19:05:40",
                                 "name": "[Example][Connected Lenses] Multiplayer Session",
                                 "hash": "51fbd7d9a7cb813c2509c522f571e46d",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-11-27T15:48:55",
+                                        "lastModified": "2022-12-03T19:05:40",
                                         "name": "Connected Lenses - Multiplayer Session.js",
                                         "hash": "dd0470e2f1bc24e62c1145d679cc9f4c",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-11-27T15:48:55",
+                                        "lastModified": "2022-12-03T19:05:40",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
@@ -9693,14 +9694,8 @@
         },
         "InspectorController": {
             "selection": {
-                "resources": [
-                    {
-                        "uid": "1651572240282866:276222",
-                        "path_list": [
-                            "Scripts",
-                            "Spawn_3D"
-                        ]
-                    }
+                "objects": [
+                    "1669557068409406:39312"
                 ]
             }
         },
