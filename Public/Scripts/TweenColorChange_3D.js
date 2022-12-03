@@ -1,6 +1,6 @@
 // -----JS CODE-----
-//@input float TimeOfAnimation = 1.0
 
+global.animationTime = 10;
 global.tween = null;
 
 global.startTween = function() {
@@ -88,7 +88,7 @@ function setupColorComponentTweens(componentType, sceneObject, x, y, z) {
         
         // Create the tween
         tween = new TWEEN.Tween(startValue)
-            .to(endValue, script.TimeOfAnimation * 1000.0)
+            .to(endValue, global.animationTime * 1000.0)
             .easing(TWEEN.Easing.Linear.None)
             .delay(0)
             .onUpdate(updateColorComponent(visualComponent));

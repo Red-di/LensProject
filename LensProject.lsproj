@@ -3,7 +3,7 @@
     "document_id": "z6UZhBZEXo1QuSYHY1cl",
     "original_document_id": "l6YiSe1mBCNuk24_IccF",
     "version": "29",
-    "lastChanged": "1670083051202",
+    "lastChanged": "1670088546379",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -33,10 +33,6 @@
                 [
                     [
                         "Assets",
-                        "MatrixIcon"
-                    ],
-                    [
-                        "Assets",
                         "TweenBox"
                     ],
                     [
@@ -54,6 +50,10 @@
                     [
                         "Assets",
                         "World Mesh Default 2"
+                    ],
+                    [
+                        "Assets",
+                        "settings"
                     ],
                     [
                         "Echopark"
@@ -743,12 +743,12 @@
                     "1661794831416288:694697",
                     "1661795056310424:743625",
                     "1661795335346862:801197",
+                    "1669557068409406:39312",
                     "1669557068474103:39750",
                     "1669557068497760:39886",
                     "1669557329497505:126230",
                     "1669557329524459:126467",
                     "1669559211037874:363098",
-                    "1670076441934031:1191922",
                     "1670076442364622:1194416",
                     "1670076442437943:1194894",
                     "1670076442728690:1196669",
@@ -789,11 +789,10 @@
                     "1670079255247091:2713596",
                     "1670079255278321:2713835",
                     "1670079255338905:2714211",
-                    "1670080050696994:3290729",
-                    "1670080050704337:3290731",
                     "1670080070978376:3344641",
                     "1670081438504451:4204215",
-                    "1670081502474334:4250948"
+                    "1670081502474334:4250948",
+                    "1670084594402819:5717644"
                 ]
             ],
             "selectionSetList": ""
@@ -835,7 +834,8 @@
             "collapsedList": [
                 [
                     "101:101",
-                    "1651770487862057:466924"
+                    "1651770487862057:466924",
+                    "1670085232058480:6189698"
                 ]
             ]
         },
@@ -1795,9 +1795,9 @@
                     "flags": "1"
                 },
                 {
-                    "resId": "424",
-                    "uid": "1670080118201537:3394018",
-                    "name": "Files\/File695.png",
+                    "resId": "426",
+                    "uid": "1670087467320060:7641078",
+                    "name": "Files\/File700.png",
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
@@ -3109,7 +3109,7 @@
                         {
                             "k": "1670080050824918:3291046",
                             "v": {
-                                "isBasicMode": "true",
+                                "isBasicMode": "false",
                                 "basicModeSetup": {
                                     "fixWidth": "true",
                                     "fixHeight": "true",
@@ -4085,6 +4085,202 @@
                                     "attachTop": "false"
                                 }
                             }
+                        },
+                        {
+                            "k": "1670084314255217:5576092",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1670084557528963:5660448",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1670084594517253:5718374",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1670084594622455:5718978",
+                            "v": {
+                                "isBasicMode": "false",
+                                "basicModeSetup": {
+                                    "fixWidth": "true",
+                                    "fixHeight": "true",
+                                    "attachBottom": "false",
+                                    "attachLeft": "true",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1670084594676947:5719347",
+                            "v": {
+                                "isBasicMode": "false",
+                                "basicModeSetup": {
+                                    "fixWidth": "true",
+                                    "fixHeight": "true",
+                                    "attachBottom": "false",
+                                    "attachLeft": "true",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1670084594704935:5719479",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1670084594724180:5719604",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1670084594757099:5719779",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "true",
+                                    "fixHeight": "true",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1670084612712339:5763437",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1670084612802061:5764039",
+                            "v": {
+                                "isBasicMode": "false",
+                                "basicModeSetup": {
+                                    "fixWidth": "true",
+                                    "fixHeight": "true",
+                                    "attachBottom": "false",
+                                    "attachLeft": "true",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1670084612859134:5764410",
+                            "v": {
+                                "isBasicMode": "false",
+                                "basicModeSetup": {
+                                    "fixWidth": "true",
+                                    "fixHeight": "true",
+                                    "attachBottom": "false",
+                                    "attachLeft": "true",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1670084612885554:5764540",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1670084612906662:5764667",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1670084612933048:5764840",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "true",
+                                    "fixHeight": "true",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
                         }
                     ],
                     "generalData": ""
@@ -4263,7 +4459,21 @@
                 "167": "1670081502711103:4252412",
                 "168": "1670082215333149:4826962",
                 "169": "1670082215367507:4827201",
-                "170": "1670082215429743:4827572"
+                "170": "1670082215429743:4827572",
+                "171": "1670084314208010:5575838",
+                "172": "1670084557470829:5660196",
+                "173": "1670084594402819:5717644",
+                "174": "1670084594439200:5717883",
+                "175": "1670084594473510:5718122",
+                "176": "1670084594539578:5718500",
+                "177": "1670084594584797:5718737",
+                "178": "1670084594645601:5719108",
+                "179": "1670084612588072:5762707",
+                "180": "1670084612621303:5762944",
+                "181": "1670084612660992:5763185",
+                "182": "1670084612734734:5763563",
+                "183": "1670084612766856:5763800",
+                "184": "1670084612828270:5764171"
             }
         },
         "LayerComponent": {
@@ -5135,20 +5345,20 @@
                     "v": "Files\/File694.ttf"
                 },
                 {
-                    "k": "695",
-                    "v": "Files\/File695.pvr"
+                    "k": "700",
+                    "v": "Files\/File700.pvr"
                 },
                 {
-                    "k": "696",
-                    "v": "Files\/File696.png"
+                    "k": "701",
+                    "v": "Files\/File701.png"
                 },
                 {
-                    "k": "697",
-                    "v": "Files\/File697.png"
+                    "k": "702",
+                    "v": "Files\/File702.png"
                 },
                 {
-                    "k": "698",
-                    "v": "Files\/File698.pvr"
+                    "k": "703",
+                    "v": "Files\/File703.pvr"
                 }
             ]
         },
@@ -5672,8 +5882,8 @@
                         "v": "UI\/Resources\/Fonts\/fredoka_one_regular 3.ttf"
                     },
                     {
-                        "k": "29802",
-                        "v": "Assets\/MatrixIcon.png"
+                        "k": "29804",
+                        "v": "Assets\/settings.png"
                     }
                 ],
                 "hashes": [
@@ -6683,7 +6893,7 @@
                     },
                     {
                         "k": "29574",
-                        "v": "91e5d09214217a2e2c09bd091a5ca9e8"
+                        "v": "9474ff49c30f025b498a01b27e9de3a4"
                     },
                     {
                         "k": "29575",
@@ -7483,7 +7693,7 @@
                     },
                     {
                         "k": "29799",
-                        "v": "5fa69ba72f008e02ede9205655b7a2c8"
+                        "v": "620a0801d9c27ab3271e1605b4c7ba8e"
                     },
                     {
                         "k": "29800",
@@ -7496,6 +7706,14 @@
                     {
                         "k": "29802",
                         "v": "6a172b96cc93c9703f7883b249b95b01"
+                    },
+                    {
+                        "k": "29803",
+                        "v": "ee7c09c7f7e86323a6291ca4501847ae"
+                    },
+                    {
+                        "k": "29804",
+                        "v": "1aad52c960a79cc4e7a2ee75f1074849"
                     }
                 ],
                 "publicState": {
@@ -7503,13 +7721,13 @@
                         "isFolder": "true",
                         "lastModified": "2022-11-29T09:04:15",
                         "name": "Public",
-                        "hash": "93e2d2bc7939b7c61a576a544f930a23",
+                        "hash": "1d7babcaadde9766563ff33d3472694c",
                         "children": [
                             {
                                 "isFolder": "true",
-                                "lastModified": "2022-12-03T16:08:43",
+                                "lastModified": "2022-12-03T18:11:07",
                                 "name": "Assets",
-                                "hash": "a25565f5602481b6e66ad7ff6d3992c5",
+                                "hash": "a2bb74a056390ca3105eb87ee5ba8b91",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -7520,9 +7738,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-12-03T16:08:27",
-                                        "name": "MatrixIcon.png",
-                                        "hash": "6a172b96cc93c9703f7883b249b95b01",
+                                        "lastModified": "2022-12-03T18:10:57",
+                                        "name": "settings.png",
+                                        "hash": "1aad52c960a79cc4e7a2ee75f1074849",
                                         "children": ""
                                     },
                                     {
@@ -8162,9 +8380,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2022-12-03T15:28:20",
+                                "lastModified": "2022-12-03T17:36:09",
                                 "name": "Scripts",
-                                "hash": "9ee6a52e14c6084451321155d09c5519",
+                                "hash": "dc2144034c30380a203ac8f44f2b14bc",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -8189,7 +8407,7 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-12-03T16:40:14",
+                                        "lastModified": "2022-12-03T18:06:44",
                                         "name": "Spawn_3D.js",
                                         "hash": "9fe1c69bade0d29b7e793023dee10cb7",
                                         "children": ""
@@ -8203,9 +8421,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-12-03T16:39:35",
+                                        "lastModified": "2022-12-03T17:27:12",
                                         "name": "TweenColorChange_3D.js",
-                                        "hash": "91e5d09214217a2e2c09bd091a5ca9e8",
+                                        "hash": "9474ff49c30f025b498a01b27e9de3a4",
                                         "children": ""
                                     },
                                     {
@@ -8217,9 +8435,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-12-03T16:56:00",
+                                        "lastModified": "2022-12-03T18:28:25",
                                         "name": "UiManager.js",
-                                        "hash": "5fa69ba72f008e02ede9205655b7a2c8",
+                                        "hash": "620a0801d9c27ab3271e1605b4c7ba8e",
                                         "children": ""
                                     },
                                     {
@@ -11575,19 +11793,19 @@
                                 "additional": ""
                             },
                             {
-                                "name": "MatrixIcon",
+                                "name": "settings",
                                 "type": "1",
                                 "subtype": "9",
-                                "resourceId": "424",
+                                "resourceId": "426",
                                 "dependency": "0",
                                 "hidden": "false",
-                                "uid": "1670080118201537:3394018",
-                                "fileId": "695",
-                                "originalId": "696",
-                                "publicId": "29802",
-                                "source": "C:\/Users\/matik\/Downloads\/matrix_icon.png",
+                                "uid": "1670087467320060:7641078",
+                                "fileId": "700",
+                                "originalId": "701",
+                                "publicId": "29804",
+                                "source": "C:\/Users\/matik\/Downloads\/settings.png",
                                 "additional": {
-                                    "originHash": "6a172b96cc93c9703f7883b249b95b01"
+                                    "originHash": "1aad52c960a79cc4e7a2ee75f1074849"
                                 }
                             }
                         ]
@@ -12050,7 +12268,7 @@
         "InspectorController": {
             "selection": {
                 "objects": [
-                    "1670080070978376:3344641"
+                    "1670079102188222:2590675"
                 ]
             }
         },
@@ -15588,13 +15806,13 @@
                     }
                 },
                 {
-                    "k": "1670080118201537:3394018",
+                    "k": "1670087467320060:7641078",
                     "v": {
                         "infos": {
-                            "originalSize": "662",
-                            "compressedSize": "959",
-                            "originalRAM": "202500",
-                            "compressedRAM": "25992",
+                            "originalSize": "18899",
+                            "compressedSize": "9028",
+                            "originalRAM": "409600",
+                            "compressedRAM": "51200",
                             "extension": "png",
                             "settings": {
                                 "isCompressed": "true",
@@ -15603,14 +15821,14 @@
                                 "subtype": "9"
                             }
                         },
-                        "uncompressed_file": "697",
+                        "uncompressed_file": "702",
                         "compressed_files": [
                             {
                                 "k": {
-                                    "uncompressed_hash": "6a172b96cc93c9703f7883b249b95b01",
+                                    "uncompressed_hash": "1aad52c960a79cc4e7a2ee75f1074849",
                                     "settings_hash": "2049"
                                 },
-                                "v": "698"
+                                "v": "703"
                             }
                         ]
                     }
