@@ -14,7 +14,7 @@ global.matrixShape = 7;
 global.heatnessSource_X = 3;
 global.heatnessSource_Y = 3;
 global.heatnessSource_Z = 3;
-global.heatnessValue = 1;
+global.heatnessValue = 3;
 global.spawn = false;
 
 global.matrix = [];

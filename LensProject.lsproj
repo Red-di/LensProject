@@ -3,7 +3,7 @@
     "document_id": "z6UZhBZEXo1QuSYHY1cl",
     "original_document_id": "l6YiSe1mBCNuk24_IccF",
     "version": "29",
-    "lastChanged": "1670088546379",
+    "lastChanged": "1670089094801",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -5901,7 +5901,7 @@
                     },
                     {
                         "k": "27857",
-                        "v": "9fe1c69bade0d29b7e793023dee10cb7"
+                        "v": "c4f2a0cc5772cf67d8b2afe6bac56087"
                     },
                     {
                         "k": "27858",
@@ -7693,7 +7693,7 @@
                     },
                     {
                         "k": "29799",
-                        "v": "620a0801d9c27ab3271e1605b4c7ba8e"
+                        "v": "0a407e2e44cb5380b1fe9d4a2c2187b1"
                     },
                     {
                         "k": "29800",
@@ -7721,7 +7721,7 @@
                         "isFolder": "true",
                         "lastModified": "2022-11-29T09:04:15",
                         "name": "Public",
-                        "hash": "1d7babcaadde9766563ff33d3472694c",
+                        "hash": "8dfc2aefab220b3776971c20ee221da1",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -8382,7 +8382,7 @@
                                 "isFolder": "true",
                                 "lastModified": "2022-12-03T17:36:09",
                                 "name": "Scripts",
-                                "hash": "dc2144034c30380a203ac8f44f2b14bc",
+                                "hash": "29af90cd5e6d3079216bbcb2d48f5bf1",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -8407,9 +8407,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-12-03T18:06:44",
+                                        "lastModified": "2022-12-03T18:37:40",
                                         "name": "Spawn_3D.js",
-                                        "hash": "9fe1c69bade0d29b7e793023dee10cb7",
+                                        "hash": "c4f2a0cc5772cf67d8b2afe6bac56087",
                                         "children": ""
                                     },
                                     {
@@ -8435,9 +8435,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-12-03T18:28:25",
+                                        "lastModified": "2022-12-03T18:36:02",
                                         "name": "UiManager.js",
-                                        "hash": "620a0801d9c27ab3271e1605b4c7ba8e",
+                                        "hash": "0a407e2e44cb5380b1fe9d4a2c2187b1",
                                         "children": ""
                                     },
                                     {
@@ -12266,11 +12266,7 @@
             }
         },
         "InspectorController": {
-            "selection": {
-                "objects": [
-                    "1670079102188222:2590675"
-                ]
-            }
+            "selection": ""
         },
         "EffectsController": {
             "1": "",

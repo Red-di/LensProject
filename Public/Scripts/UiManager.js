@@ -31,7 +31,7 @@ script.api.addMatrixShape = function() {
         script.MatrixShapeText.text = String(currentShape + 1);
     if (script.MatrixShapeText.text == "15")
         script.addMatrixShape.enabled = false;
-    else if (script.MatrixShapeText.text != "1" && script.removeMatrixShape.enabled == false)
+    else if (script.MatrixShapeText.text != "3" && script.removeMatrixShape.enabled == false)
         script.removeMatrixShape.enabled = true;
 
     if (script.addX.enabled == false) 
@@ -46,17 +46,17 @@ script.api.removeMatrixShape = function() {
     var currentShape = parseInt(script.MatrixShapeText.text);
     if (currentShape > 3)
         script.MatrixShapeText.text = String(currentShape - 1);
-    if (script.MatrixShapeText.text == "1")
+    if (script.MatrixShapeText.text == "3")
         script.removeMatrixShape.enabled = false;
     else if (script.MatrixShapeText.text != "15" && script.addMatrixShape.enabled == false)
         script.addMatrixShape.enabled = true;
 
     if (script.addX.enabled == false) 
-        script.HeatSourceX.text = String(parseInt(script.HeatSourceX.text) - 1);
+        script.api.removeX();
     if (script.addY.enabled == false) 
-        script.HeatSourceY.text = String(parseInt(script.HeatSourceY.text) - 1);
+        script.api.removeY();
     if (script.addZ.enabled == false)
-        script.HeatSourceZ.text = String(parseInt(script.HeatSourceZ.text) - 1);
+        script.api.removeZ();
 
     currentShape = parseInt(script.MatrixShapeText.text);
     if (script.HeatSourceX.text == String(currentShape - 2))
