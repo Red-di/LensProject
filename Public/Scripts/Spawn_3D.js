@@ -4,33 +4,57 @@
 //@input Component.Camera camera
 //@input Component.DeviceTracking device
 //@input Component.RenderMeshVisual worldMesh
-//@input int MatrixShape
 //@input float h
 //@input float dt
 //@input float e
 //@input float time
-//@input int heatnessSource_X
-//@input int heatnessSource_Y
-//@input int heatnessSource_Z
-//@input int heatnessValue
+
+// Defaults
+global.matrixShape = 7;
+global.heatnessSource_X = 3;
+global.heatnessSource_Y = 3;
+global.heatnessSource_Z = 3;
+global.heatnessValue = 1;
 global.spawn = false;
 
 global.matrix = [];
-for(var i=0; i < script.MatrixShape; i++) {
+for(var i=0; i < global.matrixShape; i++) {
     global.matrix[i] = [];
-    for(var j=0; j < script.MatrixShape; j++)
-        global.matrix[i][j] = new Array(script.MatrixShape);
+    for(var j=0; j < global.matrixShape; j++)
+        global.matrix[i][j] = new Array(global.matrixShape);
 }
     
 global.heatness = [];
-for(var i=0; i < script.MatrixShape; i++) {
+for(var i=0; i < global.matrixShape; i++) {
     global.heatness[i] = [];
-    for(var j=0; j < script.MatrixShape; j++) {
+    for(var j=0; j < global.matrixShape; j++) {
         global.heatness[i][j] = [];
-        for(var k=0; k < script.MatrixShape; k++) {
+        for(var k=0; k < global.matrixShape; k++) {
             global.heatness[i][j][k] = 0;
         }
     }
+}
+
+global.setMatrixes = function() {
+    delete global.matrix;
+    delete global.heatness;
+    global.matrix = [];
+    for(var i=0; i < global.matrixShape; i++) {
+        global.matrix[i] = [];
+        for(var j=0; j < global.matrixShape; j++)
+            global.matrix[i][j] = new Array(global.matrixShape);
+    }
+    
+    global.heatness = [];
+    for(var i=0; i < global.matrixShape; i++) {
+        global.heatness[i] = [];
+        for(var j=0; j < global.matrixShape; j++) {
+            global.heatness[i][j] = [];
+            for(var k=0; k < global.matrixShape; k++) {
+                global.heatness[i][j][k] = 0;
+            }
+        }
+}
 }
 
 
@@ -45,13 +69,13 @@ global.startVisualization = function() {
         } else if (rayCastRes.getClassification() == 4) {
             global.textLogger.clear();
             var pos = rayCastRes.getWorldPos();
-            var substractValue = script.MatrixShape/2 * 3.5;
-            createMatrix(pos.x-substractValue, pos.y, pos.z-substractValue, script.MatrixShape);
+            var substractValue = global.matrixShape/2 * 3.5;
+            createMatrix(pos.x-substractValue, pos.y, pos.z-substractValue, global.matrixShape);
             
-            global.heatness[script.heatnessSource_X][script.heatnessSource_Y][script.heatnessSource_Z] = script.heatnessValue;
+            global.heatness[global.heatnessSource_X][global.heatnessSource_Y][global.heatnessSource_Z] = global.heatnessValue;
             for (var t = 0; t < script.time; t++) {
-                global.heatness = spreadHeatness(script.h, script.dt, script.e);
-            }
+                    global.heatness = spreadHeatness(script.h, script.dt, script.e);
+            } 
         } else {
             global.logToScreen("Wrong suface: " + rayCastRes.getClassification());
         }
@@ -73,18 +97,19 @@ function addNewObject(x, y, z) {
 }
 
 function createMatrix(startX, startY, startZ, shape) {  
+    scale_factor = 3.5;
     var scaleY = 0;
-    for(i = 0; i < script.MatrixShape; i++) {
+    for(i = 0; i < global.matrixShape; i++) {
         var scaleX = 0;
-        for(j = 0; j < script.MatrixShape; j++) {
+        for(j = 0; j < global.matrixShape; j++) {
             var scaleZ = 0;
-            for(k = 0; k < script.MatrixShape; k++) { 
+            for(k = 0; k < global.matrixShape; k++) { 
                 global.matrix[i][j][k] = addNewObject(startX+j+scaleX, startY+i+scaleY, startZ+k+scaleZ); 
-                scaleZ = scaleZ + 3.5;            
+                scaleZ = scaleZ + scale_factor;            
             }
-            scaleX = scaleX + 3.5;
+            scaleX = scaleX + scale_factor;
         }
-        scaleY = scaleY + 3.5;
+        scaleY = scaleY + scale_factor;
     } 
 }
 
@@ -99,11 +124,18 @@ function spreadHeatness(h, dt, e) {
 				dx2 = e * ((global.heatness[x+1][y][z] - 2*global.heatness[x][y][z] + global.heatness[x-1][y][z]) / (h*h));
 				dy2 = e * ((global.heatness[x][y+1][z] - 2*global.heatness[x][y][z] + global.heatness[x][y-1][z]) / (h*h)); 
 				dz2 = e * ((global.heatness[x][y][z+1] - 2*global.heatness[x][y][z] + global.heatness[x][y][z-1]) / (h*h)); 
-
-				var new_color = global.heatness[x][y][z] + dt * dx2 + dt * dy2 + dt * dz2;
-
-				if (x == script.heatnessSource_X && y == script.heatnessSource_Y && z == script.heatnessSource_Z) {                        
-					new_color = new_color + script.heatnessValue;
+                
+                wx_v = 0;
+                wy_v = 0;
+                wz_v = 0;
+                wx = wx_v * e *(global.heatness[x+1][y][z] - global.heatness[x-1][y][z])/2*h;            
+                wy = wy_v * e *(global.heatness[x][y+1][z] - global.heatness[x][y-1][z])/2*h;
+                wz = wz_v * e *(global.heatness[x][y][z+1] - global.heatness[x][y][z-1])/2*h;
+                
+				var new_color = global.heatness[x][y][z] + dt * (dx2 + dy2 + dz2 - wx - wy -wz);
+    
+				if (x == global.heatnessSource_X && y == global.heatnessSource_Y && z == global.heatnessSource_Z) {                        
+					new_color = new_color + global.heatnessValue;
 				}
 				newHeatness[x][y][z] = new_color;
 				

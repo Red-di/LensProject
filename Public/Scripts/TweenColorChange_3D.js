@@ -1,17 +1,15 @@
 // -----JS CODE-----
 //@input float TimeOfAnimation = 1.0
-//@input float delay = 1.0
 
-script.api.tween = null;
+global.tween = null;
 
 global.startTween = function() {
     var tween = setupTween();
-
     if (tween) {
-        if (script.api.tween.length > 0) {
+        if (global.tween.length > 0) {
             // Start the tweens
-            for (var i = 0; i < script.api.tween.length; i++) {
-                script.api.tween[i].start();
+            for (var i = 0; i < global.tween.length; i++) {
+                global.tween[i].start();
             }
         }
     }
@@ -29,7 +27,7 @@ updateEvent.bind(onUpdateEvent);
 // Create the tween with passed in parameters
 function setupTween() {
 
-    script.api.tween = [];
+    global.tween = [];
 
     for(var i = 0; i < global.matrix.length; i++) {
         for (var j = 0; j < global.matrix.length; j++) {
@@ -43,10 +41,10 @@ function setupTween() {
         }
     }
 
-    if (script.api.tween.length == 0) {
+    if (global.tween.length == 0) {
         print("Tween Color:  No compatible components found for SceneObject " + script.sceneObject.name);
     }
-    return script.api.tween;
+    return global.tween;
 }
 
 // Create Tweens for specific Visual Component (e.g. MaterialMeshVisual or Text)
@@ -92,13 +90,13 @@ function setupColorComponentTweens(componentType, sceneObject, x, y, z) {
         tween = new TWEEN.Tween(startValue)
             .to(endValue, script.TimeOfAnimation * 1000.0)
             .easing(TWEEN.Easing.Linear.None)
-            .delay(script.delay * 1000)
+            .delay(0)
             .onUpdate(updateColorComponent(visualComponent));
 
         if (tween) {
             // Configure the type of looping based on the inputted parameters
 
-            script.api.tween.push(tween);
+            global.tween.push(tween);
         } else {
             print("Tween Color: Tween Manager not initialized. Try moving the TweenManager script to the top of the Objects Panel or changing the event on this TweenType to \"Lens Turned On\".");
         } 

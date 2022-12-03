@@ -1,10 +1,14 @@
 // -----JS CODE-----
 
+//@input SceneObject MatrixUI
+//@input SceneObject MainUI
+
 // Starting 3D visualization
 script.api.spawn = function() {
     if (global.spawn) {
         deleteMatrix();
     }
+    global.setMatrixes();
     global.startVisualization();
 }
 
@@ -17,6 +21,17 @@ script.api.startAnimation = function() {
 
 script.api.remove = function() {
     deleteMatrix()
+    if (global.tween) {
+        for (var i = 0; i < global.tween.length; i++) {
+                global.tween[i].stop();
+        }
+    }
+}
+
+script.api.showMatrixUI = function() {
+    script.MatrixUI.enabled = true;
+    script.MainUI.enabled = false;
+    deleteMatrix();
 }
 
 function deleteMatrix() {
