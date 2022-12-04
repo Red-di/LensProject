@@ -31,7 +31,7 @@ script.api.remove = function() {
 script.api.showMatrixUI = function() {
     script.MatrixUI.enabled = true;
     script.MainUI.enabled = false;
-    deleteMatrix();
+    script.api.remove();
 }
 
 function deleteMatrix() {

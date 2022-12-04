@@ -15,6 +15,9 @@ global.heatnessSource_X = 3;
 global.heatnessSource_Y = 3;
 global.heatnessSource_Z = 3;
 global.heatnessValue = 3;
+global.windX = 0;
+global.windY = 0;
+global.windZ = 0;
 global.spawn = false;
 
 global.matrix = [];
@@ -125,12 +128,9 @@ function spreadHeatness(h, dt, e) {
 				dy2 = e * ((global.heatness[x][y+1][z] - 2*global.heatness[x][y][z] + global.heatness[x][y-1][z]) / (h*h)); 
 				dz2 = e * ((global.heatness[x][y][z+1] - 2*global.heatness[x][y][z] + global.heatness[x][y][z-1]) / (h*h)); 
                 
-                wx_v = 0;
-                wy_v = 0;
-                wz_v = 0;
-                wx = wx_v * e *(global.heatness[x+1][y][z] - global.heatness[x-1][y][z])/2*h;            
-                wy = wy_v * e *(global.heatness[x][y+1][z] - global.heatness[x][y-1][z])/2*h;
-                wz = wz_v * e *(global.heatness[x][y][z+1] - global.heatness[x][y][z-1])/2*h;
+                wx = global.windX * e *(global.heatness[x+1][y][z] - global.heatness[x-1][y][z])/2*h;            
+                wy = global.windY * e *(global.heatness[x][y+1][z] - global.heatness[x][y-1][z])/2*h;
+                wz = global.windZ * e *(global.heatness[x][y][z+1] - global.heatness[x][y][z-1])/2*h;
                 
 				var new_color = global.heatness[x][y][z] + dt * (dx2 + dy2 + dz2 - wx - wy -wz);
     
