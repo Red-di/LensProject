@@ -1,0 +1,39 @@
+{
+    "1678017578700076:1676": {
+        "IResourceController": {
+            "name": "font_mat",
+            "type": 2,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1651778418236816:412678",
+            "fileId": "1678017578700129:1790",
+            "originalId": "1678017578700130:1791",
+            "publicId": "1678017578700469:1993",
+            "expected_hash": "b07b1ecfe7d6226ba27d8537850fa229"
+        },
+        "IResourceManager": {
+            "uid": "1651778418236816:412678",
+            "name": "Files/File_1678017578700129_1790",
+            "flags": 1
+        }
+    },
+    "1678017578700129:1790": {
+        "IFileManager": {
+            "path": "Files/File_1678017578700129_1790"
+        }
+    },
+    "1678017578700130:1791": {
+        "IFileManager": {
+            "path": "Files/File_1678017578700130_1791.lsmat"
+        }
+    },
+    "1678017578700469:1993": {
+        "IResourceController": {
+            "public": {
+                "path": "Log_To_Screen/font_mat.lsmat",
+                "hash": "ae909aaaefcaf852af03610744a03234"
+            }
+        }
+    }
+}

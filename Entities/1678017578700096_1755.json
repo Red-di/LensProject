@@ -1,0 +1,125 @@
+{
+    "1661795333418862:801072": {
+        "Compression::IController": {
+            "compressed_files": "",
+            "infos": {
+                "compressedRAM": "552",
+                "compressedSize": "755",
+                "extension": "mesh",
+                "originalRAM": "552",
+                "originalSize": "755",
+                "settings": {
+                    "attributeFormat": "",
+                    "draco": {
+                        "colorBits": "8",
+                        "compressLvl": "7",
+                        "normalBits": "8",
+                        "posBits": "11",
+                        "texBits": "10"
+                    },
+                    "info": {
+                        "hasBlendShapes": "false",
+                        "vertexAttribs": [
+                            {
+                                "canBeDisabled": "false",
+                                "format": "0",
+                                "semantic": "position"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "0",
+                                "semantic": "normal"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "0",
+                                "semantic": "tangent"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "0",
+                                "semantic": "bitangent"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "0",
+                                "semantic": "texture0"
+                            }
+                        ]
+                    },
+                    "isCompressed": "false",
+                    "type": "0"
+                }
+            },
+            "uncompressed_file": "1678017594668805:14489"
+        }
+    },
+    "1678017578700096:1755": {
+        "IResourceController": {
+            "name": "TweenBox",
+            "type": 3,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1661795333418862:801072",
+            "fileId": "1678017578700386:1947",
+            "publicId": "1678017578700497:2076",
+            "expected_hash": "1d5d3c34bcbc8546a92a98ab3ada00c3",
+            "additional": {
+                "info": {
+                    "hasBlendShapes": "false",
+                    "vertexAttribs": [
+                        {
+                            "canBeDisabled": "false",
+                            "format": "0",
+                            "semantic": "position"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "0",
+                            "semantic": "normal"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "0",
+                            "semantic": "tangent"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "0",
+                            "semantic": "bitangent"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "0",
+                            "semantic": "texture0"
+                        }
+                    ]
+                }
+            }
+        },
+        "IResourceManager": {
+            "uid": "1661795333418862:801072",
+            "name": "Files/File_1678017578700386_1947.mesh",
+            "flags": 1
+        }
+    },
+    "1678017578700386:1947": {
+        "IFileManager": {
+            "path": "Files/File_1678017578700386_1947.mesh"
+        }
+    },
+    "1678017578700497:2076": {
+        "IResourceController": {
+            "public": {
+                "path": "Assets/TweenBox.mesh",
+                "hash": "1d5d3c34bcbc8546a92a98ab3ada00c3"
+            }
+        }
+    },
+    "1678017594668805:14489": {
+        "IFileManager": {
+            "path": "Files/File_1678017594668805_14489.mesh"
+        }
+    }
+}

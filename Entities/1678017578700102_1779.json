@@ -1,0 +1,33 @@
+{
+    "1678017578700102:1779": {
+        "IResourceController": {
+            "name": "result",
+            "type": 7,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1672679823512294:152234",
+            "fileId": "1678017578700444:1986",
+            "publicId": "1678017578700507:2107",
+            "expected_hash": "85df559c8b74dee4b0c0330d539e2a2c"
+        },
+        "IResourceManager": {
+            "uid": "1672679823512294:152234",
+            "name": "Files/File_1678017578700444_1986.json",
+            "flags": 1
+        }
+    },
+    "1678017578700444:1986": {
+        "IFileManager": {
+            "path": "Files/File_1678017578700444_1986.json"
+        }
+    },
+    "1678017578700507:2107": {
+        "IResourceController": {
+            "public": {
+                "path": "result.json",
+                "hash": "85df559c8b74dee4b0c0330d539e2a2c"
+            }
+        }
+    }
+}

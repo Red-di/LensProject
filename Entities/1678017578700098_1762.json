@@ -1,0 +1,33 @@
+{
+    "1678017578700098:1762": {
+        "IResourceController": {
+            "name": "UIToggle",
+            "type": 4,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1669557067044024:39069",
+            "fileId": "1678017578700399:1956",
+            "publicId": "1678017578700499:2084",
+            "expected_hash": "63f5718b78b0e3a23881210d26cfb4b9"
+        },
+        "IResourceManager": {
+            "uid": "1669557067044024:39069",
+            "name": "Files/File_1678017578700399_1956.js",
+            "flags": 1
+        }
+    },
+    "1678017578700399:1956": {
+        "IFileManager": {
+            "path": "Files/File_1678017578700399_1956.js"
+        }
+    },
+    "1678017578700499:2084": {
+        "IResourceController": {
+            "public": {
+                "path": "UI/Resources/Scripts/UIToggle.js",
+                "hash": "63f5718b78b0e3a23881210d26cfb4b9"
+            }
+        }
+    }
+}

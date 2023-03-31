@@ -1,0 +1,22 @@
+{
+    "1678017578700505:2103": {
+        "IResourceController": {
+            "public": {
+                "path": "UI/Resources/Fonts"
+            }
+        }
+    },
+    "1678017578701175:2472": {
+        "IResourceController": {
+            "name": "Fonts",
+            "type": 0,
+            "subtype": -1,
+            "dependency": 0,
+            "hidden": false,
+            "publicId": "1678017578700505:2103",
+            "resources": [
+                "1678017578700102:1777"
+            ]
+        }
+    }
+}

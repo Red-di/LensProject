@@ -1,0 +1,33 @@
+{
+    "1678017578700099:1766": {
+        "IResourceController": {
+            "name": "UIDiscretePicker",
+            "type": 4,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1669557067240752:39111",
+            "fileId": "1678017578700405:1960",
+            "publicId": "1678017578700501:2088",
+            "expected_hash": "8d56ba82106a6e5c7144ced901f1bfbf"
+        },
+        "IResourceManager": {
+            "uid": "1669557067240752:39111",
+            "name": "Files/File_1678017578700405_1960.js",
+            "flags": 1
+        }
+    },
+    "1678017578700405:1960": {
+        "IFileManager": {
+            "path": "Files/File_1678017578700405_1960.js"
+        }
+    },
+    "1678017578700501:2088": {
+        "IResourceController": {
+            "public": {
+                "path": "UI/Resources/Scripts/UIDiscretePicker.js",
+                "hash": "8d56ba82106a6e5c7144ced901f1bfbf"
+            }
+        }
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "1678017578700101:1772": {
+        "IResourceController": {
+            "name": "palette_background",
+            "type": 1,
+            "subtype": 9,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1669557067571805:39171",
+            "fileId": "1678017578700421:1971",
+            "originalId": "1678017578700422:1972",
+            "publicId": "1678017578700503:2097",
+            "expected_hash": "4d11d75ae2243c861010d652ed6f4458",
+            "additional": {
+                "originHash": "4d11d75ae2243c861010d652ed6f4458"
+            }
+        },
+        "IResourceManager": {
+            "uid": "1669557067571805:39171",
+            "name": "Files/File677.jpg",
+            "flags": 1
+        }
+    },
+    "1678017578700421:1971": {
+        "IFileManager": {
+            "path": "Files/File_1678017578700421_1971.pvr"
+        }
+    },
+    "1678017578700422:1972": {
+        "IFileManager": {
+            "path": "Files/File_1678017578700422_1972.pvr"
+        }
+    },
+    "1678017578700503:2097": {
+        "IResourceController": {
+            "public": {
+                "path": "UI/Resources/Textures/Color Picker/palette_background.pvr",
+                "hash": "4d11d75ae2243c861010d652ed6f4458"
+            }
+        }
+    }
+}

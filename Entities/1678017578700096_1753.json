@@ -1,0 +1,33 @@
+{
+    "1678017578700096:1753": {
+        "IResourceController": {
+            "name": "Tween",
+            "type": 4,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1661793369945310:416608",
+            "fileId": "1678017578700382:1944",
+            "publicId": "1678017578700495:2072",
+            "expected_hash": "db1633dd326bc8f976dd02c2fdb5bbf4"
+        },
+        "IResourceManager": {
+            "uid": "1661793369945310:416608",
+            "name": "Files/File_1678017578700382_1944.js",
+            "flags": 1
+        }
+    },
+    "1678017578700382:1944": {
+        "IFileManager": {
+            "path": "Files/File_1678017578700382_1944.js"
+        }
+    },
+    "1678017578700495:2072": {
+        "IResourceController": {
+            "public": {
+                "path": "Scripts/Tween.js",
+                "hash": "db1633dd326bc8f976dd02c2fdb5bbf4"
+            }
+        }
+    }
+}

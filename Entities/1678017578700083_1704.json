@@ -1,0 +1,105 @@
+{
+    "1651778424070415:413209": {
+        "Compression::IController": {
+            "compressed_files": "",
+            "infos": {
+                "compressedRAM": "140",
+                "compressedSize": "446",
+                "extension": "mesh",
+                "originalRAM": "140",
+                "originalSize": "446",
+                "settings": {
+                    "attributeFormat": "",
+                    "draco": {
+                        "colorBits": "8",
+                        "compressLvl": "7",
+                        "normalBits": "8",
+                        "posBits": "11",
+                        "texBits": "10"
+                    },
+                    "info": {
+                        "hasBlendShapes": "false",
+                        "vertexAttribs": [
+                            {
+                                "canBeDisabled": "false",
+                                "format": "9",
+                                "semantic": "position"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "normal"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "texture0"
+                            }
+                        ]
+                    },
+                    "isCompressed": "false",
+                    "type": "0"
+                }
+            },
+            "uncompressed_file": "1678017578700208:1846"
+        }
+    },
+    "1678017578700083:1704": {
+        "IResourceController": {
+            "name": "_chr_36",
+            "type": 3,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1651778424070415:413209",
+            "fileId": "1678017578700207:1845",
+            "publicId": "1678017578700479:2023",
+            "expected_hash": "6c9fba248b5a437eaea95ee18e63f7c3",
+            "additional": {
+                "info": {
+                    "hasBlendShapes": "false",
+                    "vertexAttribs": [
+                        {
+                            "canBeDisabled": "false",
+                            "format": "9",
+                            "semantic": "position"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "normal"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "texture0"
+                        }
+                    ]
+                }
+            }
+        },
+        "IResourceManager": {
+            "uid": "1651778424070415:413209",
+            "name": "Files/File_1678017578700207_1845.mesh",
+            "flags": 1
+        }
+    },
+    "1678017578700207:1845": {
+        "IFileManager": {
+            "path": "Files/File_1678017578700207_1845.mesh"
+        }
+    },
+    "1678017578700208:1846": {
+        "IFileManager": {
+            "path": "Files/File_1678017578700208_1846.mesh"
+        }
+    },
+    "1678017578700479:2023": {
+        "IResourceController": {
+            "public": {
+                "path": "Log_To_Screen/LetterMeshes/Meshes/_chr_36.mesh",
+                "hash": "6c9fba248b5a437eaea95ee18e63f7c3"
+            }
+        }
+    }
+}

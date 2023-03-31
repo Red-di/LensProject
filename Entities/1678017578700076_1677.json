@@ -1,0 +1,33 @@
+{
+    "1678017578700076:1677": {
+        "IResourceController": {
+            "name": "TextLoggerInput",
+            "type": 4,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1651778418694543:412697",
+            "fileId": "1678017578700132:1792",
+            "publicId": "1678017578700470:1994",
+            "expected_hash": "869fa0ed08f0aac5f4ec6f6d071abd75"
+        },
+        "IResourceManager": {
+            "uid": "1651778418694543:412697",
+            "name": "Files/File_1678017578700132_1792.js",
+            "flags": 1
+        }
+    },
+    "1678017578700132:1792": {
+        "IFileManager": {
+            "path": "Files/File_1678017578700132_1792.js"
+        }
+    },
+    "1678017578700470:1994": {
+        "IResourceController": {
+            "public": {
+                "path": "Log_To_Screen/TextLoggerInput.js",
+                "hash": "869fa0ed08f0aac5f4ec6f6d071abd75"
+            }
+        }
+    }
+}

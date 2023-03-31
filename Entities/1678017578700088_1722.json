@@ -1,0 +1,105 @@
+{
+    "1651778427545207:413551": {
+        "Compression::IController": {
+            "compressed_files": "",
+            "infos": {
+                "compressedRAM": "140",
+                "compressedSize": "443",
+                "extension": "mesh",
+                "originalRAM": "140",
+                "originalSize": "443",
+                "settings": {
+                    "attributeFormat": "",
+                    "draco": {
+                        "colorBits": "8",
+                        "compressLvl": "7",
+                        "normalBits": "8",
+                        "posBits": "11",
+                        "texBits": "10"
+                    },
+                    "info": {
+                        "hasBlendShapes": "false",
+                        "vertexAttribs": [
+                            {
+                                "canBeDisabled": "false",
+                                "format": "9",
+                                "semantic": "position"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "normal"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "texture0"
+                            }
+                        ]
+                    },
+                    "isCompressed": "false",
+                    "type": "0"
+                }
+            },
+            "uncompressed_file": "1678017578700260:1882"
+        }
+    },
+    "1678017578700088:1722": {
+        "IResourceController": {
+            "name": "J_upper",
+            "type": 3,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1651778427545207:413551",
+            "fileId": "1678017578700258:1881",
+            "publicId": "1678017578700485:2041",
+            "expected_hash": "0f24d0c522f898d27e1b706db7040978",
+            "additional": {
+                "info": {
+                    "hasBlendShapes": "false",
+                    "vertexAttribs": [
+                        {
+                            "canBeDisabled": "false",
+                            "format": "9",
+                            "semantic": "position"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "normal"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "texture0"
+                        }
+                    ]
+                }
+            }
+        },
+        "IResourceManager": {
+            "uid": "1651778427545207:413551",
+            "name": "Files/File_1678017578700258_1881.mesh",
+            "flags": 1
+        }
+    },
+    "1678017578700258:1881": {
+        "IFileManager": {
+            "path": "Files/File_1678017578700258_1881.mesh"
+        }
+    },
+    "1678017578700260:1882": {
+        "IFileManager": {
+            "path": "Files/File_1678017578700260_1882.mesh"
+        }
+    },
+    "1678017578700485:2041": {
+        "IResourceController": {
+            "public": {
+                "path": "Log_To_Screen/LetterMeshes/Meshes/J_upper.mesh",
+                "hash": "0f24d0c522f898d27e1b706db7040978"
+            }
+        }
+    }
+}

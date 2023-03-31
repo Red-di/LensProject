@@ -1,0 +1,27 @@
+{
+    "1678017578700468:1991": {
+        "IResourceController": {
+            "public": {
+                "path": "Log_To_Screen",
+                "hash": "dd29a4f80671bfb4fc2803737fde16b7"
+            }
+        }
+    },
+    "1678017578701147:2464": {
+        "IResourceController": {
+            "name": "Log_To_Screen",
+            "type": 0,
+            "subtype": -1,
+            "dependency": 0,
+            "hidden": false,
+            "publicId": "1678017578700468:1991",
+            "resources": [
+                "1678017578700076:1675",
+                "1678017578700076:1676",
+                "1678017578700076:1677",
+                "1678017578701146:2463",
+                "1678017578700096:1752"
+            ]
+        }
+    }
+}

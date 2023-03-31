@@ -1,0 +1,33 @@
+{
+    "1678017578700099:1765": {
+        "IResourceController": {
+            "name": "UIPopup",
+            "type": 4,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1669557067198041:39102",
+            "fileId": "1678017578700404:1959",
+            "publicId": "1678017578700500:2087",
+            "expected_hash": "ff5e821b7f7d018fd0a03a4634d15da1"
+        },
+        "IResourceManager": {
+            "uid": "1669557067198041:39102",
+            "name": "Files/File_1678017578700404_1959.js",
+            "flags": 1
+        }
+    },
+    "1678017578700404:1959": {
+        "IFileManager": {
+            "path": "Files/File_1678017578700404_1959.js"
+        }
+    },
+    "1678017578700500:2087": {
+        "IResourceController": {
+            "public": {
+                "path": "UI/Resources/Scripts/UIPopup.js",
+                "hash": "ff5e821b7f7d018fd0a03a4634d15da1"
+            }
+        }
+    }
+}

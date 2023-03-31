@@ -1,0 +1,39 @@
+{
+    "1678017578700097:1756": {
+        "IResourceController": {
+            "name": "TweenBoxDiffuse",
+            "type": 2,
+            "subtype": 1,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1661795334443899:801131",
+            "fileId": "1678017578700389:1949",
+            "originalId": "1678017578700390:1950",
+            "publicId": "1678017578700496:2075",
+            "expected_hash": "11d9b70e432a6a62ed9deac6595bc11e"
+        },
+        "IResourceManager": {
+            "uid": "1661795334443899:801131",
+            "name": "Files/File_1678017578700389_1949",
+            "flags": 1
+        }
+    },
+    "1678017578700389:1949": {
+        "IFileManager": {
+            "path": "Files/File_1678017578700389_1949"
+        }
+    },
+    "1678017578700390:1950": {
+        "IFileManager": {
+            "path": "Files/File_1678017578700390_1950.lsmat"
+        }
+    },
+    "1678017578700496:2075": {
+        "IResourceController": {
+            "public": {
+                "path": "Assets/TweenBoxDiffuse.lsmat",
+                "hash": "559855c284f1789aa1714a14d29f05a4"
+            }
+        }
+    }
+}

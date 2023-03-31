@@ -1,0 +1,22 @@
+{
+    "1678017578700470:1995": {
+        "IResourceController": {
+            "public": {
+                "path": "Log_To_Screen/LetterMeshes"
+            }
+        }
+    },
+    "1678017578701146:2463": {
+        "IResourceController": {
+            "name": "LetterMeshes",
+            "type": 0,
+            "subtype": -1,
+            "dependency": 0,
+            "hidden": false,
+            "publicId": "1678017578700470:1995",
+            "resources": [
+                "1678017578701145:2462"
+            ]
+        }
+    }
+}

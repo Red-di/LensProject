@@ -1,0 +1,33 @@
+{
+    "1678017578700096:1752": {
+        "IResourceController": {
+            "name": "TextLogger",
+            "type": 4,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1651778433484678:414119",
+            "fileId": "1678017578700377:1941",
+            "publicId": "1678017578700495:2071",
+            "expected_hash": "8d5001fc01941e40f12689d862c35dac"
+        },
+        "IResourceManager": {
+            "uid": "1651778433484678:414119",
+            "name": "Files/File_1678017578700377_1941.js",
+            "flags": 1
+        }
+    },
+    "1678017578700377:1941": {
+        "IFileManager": {
+            "path": "Files/File_1678017578700377_1941.js"
+        }
+    },
+    "1678017578700495:2071": {
+        "IResourceController": {
+            "public": {
+                "path": "Log_To_Screen/TextLogger.js",
+                "hash": "8d5001fc01941e40f12689d862c35dac"
+            }
+        }
+    }
+}

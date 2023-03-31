@@ -1,0 +1,33 @@
+{
+    "1678017578700097:1758": {
+        "IResourceController": {
+            "name": "WorldMeshController",
+            "type": 4,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1668266328743200:14696",
+            "fileId": "1678017578700392:1951",
+            "publicId": "1678017578700497:2077",
+            "expected_hash": "5cf70bd62744fb06eb2574956756a0b2"
+        },
+        "IResourceManager": {
+            "uid": "1668266328743200:14696",
+            "name": "Files/File_1678017578700392_1951.js",
+            "flags": 1
+        }
+    },
+    "1678017578700392:1951": {
+        "IFileManager": {
+            "path": "Files/File_1678017578700392_1951.js"
+        }
+    },
+    "1678017578700497:2077": {
+        "IResourceController": {
+            "public": {
+                "path": "Scripts/WorldMeshController.js",
+                "hash": "5cf70bd62744fb06eb2574956756a0b2"
+            }
+        }
+    }
+}

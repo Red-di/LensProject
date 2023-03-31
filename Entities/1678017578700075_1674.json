@@ -1,0 +1,33 @@
+{
+    "1678017578700075:1674": {
+        "IResourceController": {
+            "name": "Spawn_3D",
+            "type": 4,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1651572240282866:276222",
+            "fileId": "1678017578700123:1786",
+            "publicId": "1678017578700468:1990",
+            "expected_hash": "2a01e6d078d1cd9ad6566ae9f7c0fc30"
+        },
+        "IResourceManager": {
+            "uid": "1651572240282866:276222",
+            "name": "Files/File_1678017578700123_1786.js",
+            "flags": 1
+        }
+    },
+    "1678017578700123:1786": {
+        "IFileManager": {
+            "path": "Files/File_1678017578700123_1786.js"
+        }
+    },
+    "1678017578700468:1990": {
+        "IResourceController": {
+            "public": {
+                "path": "Scripts/Spawn_3D.js",
+                "hash": "2a01e6d078d1cd9ad6566ae9f7c0fc30"
+            }
+        }
+    }
+}

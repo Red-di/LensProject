@@ -1,0 +1,42 @@
+{
+    "1678017578700100:1770": {
+        "IResourceController": {
+            "name": "colorpicker_background",
+            "type": 1,
+            "subtype": 9,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1669557067472260:39151",
+            "fileId": "1678017578700415:1967",
+            "originalId": "1678017578700416:1968",
+            "publicId": "1678017578700503:2095",
+            "expected_hash": "13f99fe5f5f2688822059993c43d0e2e",
+            "additional": {
+                "originHash": "13f99fe5f5f2688822059993c43d0e2e"
+            }
+        },
+        "IResourceManager": {
+            "uid": "1669557067472260:39151",
+            "name": "Files/File673.jpg",
+            "flags": 1
+        }
+    },
+    "1678017578700415:1967": {
+        "IFileManager": {
+            "path": "Files/File_1678017578700415_1967.pvr"
+        }
+    },
+    "1678017578700416:1968": {
+        "IFileManager": {
+            "path": "Files/File_1678017578700416_1968.pvr"
+        }
+    },
+    "1678017578700503:2095": {
+        "IResourceController": {
+            "public": {
+                "path": "UI/Resources/Textures/Color Picker/colorpicker_background.pvr",
+                "hash": "13f99fe5f5f2688822059993c43d0e2e"
+            }
+        }
+    }
+}

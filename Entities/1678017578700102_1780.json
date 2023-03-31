@@ -1,0 +1,33 @@
+{
+    "1678017578700102:1780": {
+        "IResourceController": {
+            "name": "Data",
+            "type": 4,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1672680833655997:719726",
+            "fileId": "1678017578700446:1987",
+            "publicId": "1678017578700507:2108",
+            "expected_hash": "a31c2378c6c3406eedc3d1bcd19c91e8"
+        },
+        "IResourceManager": {
+            "uid": "1672680833655997:719726",
+            "name": "Files/File_1678017578700446_1987.js",
+            "flags": 1
+        }
+    },
+    "1678017578700446:1987": {
+        "IFileManager": {
+            "path": "Files/File_1678017578700446_1987.js"
+        }
+    },
+    "1678017578700507:2108": {
+        "IResourceController": {
+            "public": {
+                "path": "Scripts/Data.js",
+                "hash": "a31c2378c6c3406eedc3d1bcd19c91e8"
+            }
+        }
+    }
+}

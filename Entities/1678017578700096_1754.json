@@ -1,0 +1,33 @@
+{
+    "1678017578700096:1754": {
+        "IResourceController": {
+            "name": "TweenColorChange_3D",
+            "type": 4,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1661793547054623:457262",
+            "fileId": "1678017578700385:1946",
+            "publicId": "1678017578700496:2073",
+            "expected_hash": "0f6b5d0eb374fecec2ae90c7c0717638"
+        },
+        "IResourceManager": {
+            "uid": "1661793547054623:457262",
+            "name": "Files/File_1678017578700385_1946.js",
+            "flags": 1
+        }
+    },
+    "1678017578700385:1946": {
+        "IFileManager": {
+            "path": "Files/File_1678017578700385_1946.js"
+        }
+    },
+    "1678017578700496:2073": {
+        "IResourceController": {
+            "public": {
+                "path": "Scripts/TweenColorChange_3D.js",
+                "hash": "0f6b5d0eb374fecec2ae90c7c0717638"
+            }
+        }
+    }
+}
